@@ -11,6 +11,13 @@ import UIKit
 class TripsTableViewController: UITableViewController {
 
     let trips = [Trip(destination: "San Francisco, USA", duration: 20, landmarks: ["one", "two"], pictureId: "sf_background"), Trip(destination: "Machu Picchu, Peru", duration: 20, landmarks: ["Machu", "Ivan"], pictureId: "machu-picchu"), Trip(destination: "Paris, France", duration: 10, landmarks: ["Eiffel Tower", "Street foods"], pictureId: "paris")]
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        self.navigationController?.navigationBar.setBackgroundImage(UIImage(), for: .default)
+        self.navigationController?.navigationBar.shadowImage = UIImage()
+        self.navigationController?.navigationBar.isTranslucent = true
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -22,6 +29,7 @@ class TripsTableViewController: UITableViewController {
         // self.navigationItem.rightBarButtonItem = self.editButtonItem
         tableView.rowHeight = UITableViewAutomaticDimension
         tableView.estimatedRowHeight = 250
+        
         
     }
     
