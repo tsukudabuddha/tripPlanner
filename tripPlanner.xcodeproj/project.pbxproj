@@ -12,6 +12,9 @@
 		49D21D8C1FB6C38800518749 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49D21D8A1FB6C38800518749 /* Main.storyboard */; };
 		49D21D8E1FB6C38800518749 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49D21D8D1FB6C38800518749 /* Assets.xcassets */; };
 		49D21D911FB6C38800518749 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49D21D8F1FB6C38800518749 /* LaunchScreen.storyboard */; };
+		49D21D991FB6CC0D00518749 /* TripTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D21D981FB6CC0D00518749 /* TripTableViewCell.swift */; };
+		49D21D9B1FB6CD1200518749 /* TripsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D21D9A1FB6CD1200518749 /* TripsTableViewController.swift */; };
+		49D21D9D1FB952F900518749 /* Trip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D21D9C1FB952F900518749 /* Trip.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		49D21D8D1FB6C38800518749 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		49D21D901FB6C38800518749 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		49D21D921FB6C38800518749 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49D21D981FB6CC0D00518749 /* TripTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripTableViewCell.swift; sourceTree = "<group>"; };
+		49D21D9A1FB6CD1200518749 /* TripsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripsTableViewController.swift; sourceTree = "<group>"; };
+		49D21D9C1FB952F900518749 /* Trip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trip.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +63,10 @@
 				49D21D861FB6C38800518749 /* AppDelegate.swift */,
 				49D21D881FB6C38800518749 /* ViewController.swift */,
 				49D21D8A1FB6C38800518749 /* Main.storyboard */,
+				49D21D9C1FB952F900518749 /* Trip.swift */,
 				49D21D8D1FB6C38800518749 /* Assets.xcassets */,
+				49D21D981FB6CC0D00518749 /* TripTableViewCell.swift */,
+				49D21D9A1FB6CD1200518749 /* TripsTableViewController.swift */,
 				49D21D8F1FB6C38800518749 /* LaunchScreen.storyboard */,
 				49D21D921FB6C38800518749 /* Info.plist */,
 			);
@@ -136,7 +145,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49D21D9D1FB952F900518749 /* Trip.swift in Sources */,
+				49D21D991FB6CC0D00518749 /* TripTableViewCell.swift in Sources */,
 				49D21D891FB6C38800518749 /* ViewController.swift in Sources */,
+				49D21D9B1FB6CD1200518749 /* TripsTableViewController.swift in Sources */,
 				49D21D871FB6C38800518749 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -277,6 +289,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YTYUD7N245;
 				INFOPLIST_FILE = tripPlanner/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = tsukudabuddha.tripPlanner;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -292,6 +305,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YTYUD7N245;
 				INFOPLIST_FILE = tripPlanner/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = tsukudabuddha.tripPlanner;
 				PRODUCT_NAME = "$(TARGET_NAME)";
