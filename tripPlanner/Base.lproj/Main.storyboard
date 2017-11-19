@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="naL-63-V1S">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="now-zt-lPS">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -118,6 +118,9 @@
                             <fontDescription key="fontDescription" type="system" pointSize="19"/>
                             <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         </textAttributes>
+                        <textAttributes key="largeTitleTextAttributes">
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </textAttributes>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
@@ -152,12 +155,12 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="backgroundIMG" translatesAutoresizingMaskIntoConstraints="NO" id="Edj-AJ-No7">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="backgroundIMG" translatesAutoresizingMaskIntoConstraints="NO" id="Edj-AJ-No7">
+                                <rect key="frame" x="0.0" y="0.0" width="750" height="667"/>
                                 <color key="backgroundColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pbK-bg-Rn5" userLabel="BG Tint">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="pbK-bg-Rn5" userLabel="BG Tint">
+                                <rect key="frame" x="0.0" y="0.0" width="750" height="667"/>
                                 <color key="backgroundColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="0.5" colorSpace="calibratedRGB"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Fill 91" translatesAutoresizingMaskIntoConstraints="NO" id="urS-Pt-XaX">
@@ -264,7 +267,13 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Jwc-vJ-NRK"/>
                     </view>
-                    <navigationItem key="navigationItem" id="fDz-NM-dYZ"/>
+                    <navigationItem key="navigationItem" id="fDz-NM-dYZ">
+                        <barButtonItem key="rightBarButtonItem" title="Demo Trips" id="CQe-Bc-Vjm">
+                            <connections>
+                                <segue destination="NV0-fm-esk" kind="show" id="5PC-Z8-1cF"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kcq-jj-Sbu" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -390,4 +399,7 @@
         <image name="darkLine" width="326" height="1"/>
         <image name="photoUploadz" width="100" height="100"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="vbe-kn-ATh"/>
+    </inferredMetricsTieBreakers>
 </document>
