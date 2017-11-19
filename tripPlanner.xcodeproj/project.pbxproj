@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		499DBB731FBBA33400F79025 /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499DBB721FBBA33400F79025 /* Networking.swift */; };
 		49D21D871FB6C38800518749 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D21D861FB6C38800518749 /* AppDelegate.swift */; };
-		49D21D891FB6C38800518749 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D21D881FB6C38800518749 /* ViewController.swift */; };
 		49D21D8C1FB6C38800518749 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49D21D8A1FB6C38800518749 /* Main.storyboard */; };
 		49D21D8E1FB6C38800518749 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49D21D8D1FB6C38800518749 /* Assets.xcassets */; };
 		49D21D911FB6C38800518749 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49D21D8F1FB6C38800518749 /* LaunchScreen.storyboard */; };
@@ -23,7 +22,6 @@
 		499DBB721FBBA33400F79025 /* Networking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
 		49D21D831FB6C38800518749 /* tripPlanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tripPlanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		49D21D861FB6C38800518749 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		49D21D881FB6C38800518749 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		49D21D8B1FB6C38800518749 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		49D21D8D1FB6C38800518749 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		49D21D901FB6C38800518749 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -70,7 +68,6 @@
 			isa = PBXGroup;
 			children = (
 				49D21D861FB6C38800518749 /* AppDelegate.swift */,
-				49D21D881FB6C38800518749 /* ViewController.swift */,
 				49D21D8A1FB6C38800518749 /* Main.storyboard */,
 				49D21D9C1FB952F900518749 /* Trip.swift */,
 				49D21D8D1FB6C38800518749 /* Assets.xcassets */,
@@ -231,7 +228,6 @@
 			files = (
 				49D21D9D1FB952F900518749 /* Trip.swift in Sources */,
 				49D21D991FB6CC0D00518749 /* TripTableViewCell.swift in Sources */,
-				49D21D891FB6C38800518749 /* ViewController.swift in Sources */,
 				499DBB731FBBA33400F79025 /* Networking.swift in Sources */,
 				49D21D9B1FB6CD1200518749 /* TripsTableViewController.swift in Sources */,
 				49D21D871FB6C38800518749 /* AppDelegate.swift in Sources */,

@@ -8,25 +8,9 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
         <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
-        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
-        <scene sceneID="tne-QT-ifu">
-            <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="tripPlanner" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-140" y="-243"/>
-        </scene>
         <!--Destination Table View Controller-->
         <scene sceneID="4Uy-M6-6ef">
             <objects>
@@ -48,28 +32,28 @@
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="250"/>
                                             <color key="backgroundColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
                                             <constraints>
-                                                <constraint firstAttribute="height" constant="250" id="7ko-AZ-jo9"/>
+                                                <constraint firstAttribute="height" constant="250" identifier="imageHeightConstant" id="7ko-AZ-jo9"/>
                                                 <constraint firstAttribute="width" constant="375" id="Bew-nH-mOx"/>
                                             </constraints>
                                         </imageView>
-                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nst-WV-8WK">
-                                            <rect key="frame" x="0.0" y="-6" width="375" height="256"/>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="nst-WV-8WK">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="250"/>
                                             <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.5" colorSpace="calibratedRGB"/>
                                         </imageView>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="80 places" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tmo-48-JnG">
-                                            <rect key="frame" x="123.5" y="145.5" width="47.5" height="12"/>
+                                            <rect key="frame" x="124" y="167.5" width="48" height="12"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="10"/>
                                             <color key="textColor" red="1" green="0.99997568130000003" blue="0.99999272819999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Duration: 10 days" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QUb-O3-uch">
-                                            <rect key="frame" x="185.5" y="145.5" width="84" height="12"/>
+                                            <rect key="frame" x="186" y="167.5" width="84" height="12"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="10"/>
                                             <color key="textColor" red="1" green="0.99997568130000003" blue="0.99999272819999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="San Francisco, USA" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5BH-AR-CuS">
-                                            <rect key="frame" x="112" y="110" width="150.5" height="20.5"/>
+                                            <rect key="frame" x="112" y="131.5" width="151" height="21"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <color key="textColor" red="1" green="0.99997568130493164" blue="0.9999927282333374" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                             <nil key="highlightedColor"/>
@@ -77,6 +61,7 @@
                                     </subviews>
                                     <constraints>
                                         <constraint firstItem="QUb-O3-uch" firstAttribute="centerX" secondItem="5BH-AR-CuS" secondAttribute="centerX" constant="40" id="Pka-n8-SNs"/>
+                                        <constraint firstItem="nst-WV-8WK" firstAttribute="bottom" secondItem="o6g-Wn-xMd" secondAttribute="bottom" id="Vag-35-8lj"/>
                                         <constraint firstItem="5BH-AR-CuS" firstAttribute="centerX" secondItem="Va9-TS-Oqv" secondAttribute="centerX" id="Xdv-Pw-1RZ"/>
                                         <constraint firstItem="Tmo-48-JnG" firstAttribute="centerX" secondItem="5BH-AR-CuS" secondAttribute="centerX" constant="-40" id="Z9v-QY-0gA"/>
                                         <constraint firstItem="Tmo-48-JnG" firstAttribute="top" secondItem="5BH-AR-CuS" secondAttribute="bottom" constant="15" id="aQL-Aj-kEm"/>
@@ -88,6 +73,7 @@
                                         <constraint firstAttribute="bottom" secondItem="o6g-Wn-xMd" secondAttribute="bottom" id="tgu-yT-kft"/>
                                         <constraint firstItem="5BH-AR-CuS" firstAttribute="centerY" secondItem="Va9-TS-Oqv" secondAttribute="centerYWithinMargins" constant="-15" id="uUI-aM-21f"/>
                                         <constraint firstAttribute="trailing" secondItem="o6g-Wn-xMd" secondAttribute="trailing" id="zjN-iw-r1K"/>
+                                        <constraint firstItem="nst-WV-8WK" firstAttribute="leading" secondItem="o6g-Wn-xMd" secondAttribute="leading" id="zlH-g8-nWl"/>
                                     </constraints>
                                 </tableViewCellContentView>
                                 <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -104,8 +90,11 @@
                             <outlet property="delegate" destination="NV0-fm-esk" id="O16-vB-RgV"/>
                         </connections>
                     </tableView>
-                    <extendedEdge key="edgesForExtendedLayout" bottom="YES"/>
-                    <navigationItem key="navigationItem" title="Trips" id="neA-9S-EhK"/>
+                    <navigationItem key="navigationItem" title="Trips" id="tbT-s3-4U6">
+                        <barButtonItem key="leftBarButtonItem" title="Menu" image="Menu" style="plain" id="10w-HJ-eLf">
+                            <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        </barButtonItem>
+                    </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zQh-xx-Rwq" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -114,12 +103,13 @@
         <!--Navigation Controller-->
         <scene sceneID="5GY-Oh-GLf">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="naL-63-V1S" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="naL-63-V1S" sceneMemberID="viewController">
                     <extendedEdge key="edgesForExtendedLayout" bottom="YES"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="WcS-99-Pqx">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.0" colorSpace="calibratedRGB"/>
                         <textAttributes key="titleTextAttributes">
                             <fontDescription key="fontDescription" type="system" pointSize="19"/>
                             <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -135,4 +125,7 @@
             <point key="canvasLocation" x="-396" y="843"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Menu" width="20" height="14"/>
+    </resources>
 </document>
