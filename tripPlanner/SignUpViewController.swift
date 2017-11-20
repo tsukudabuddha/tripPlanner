@@ -8,19 +8,44 @@
 
 import UIKit
 
-class SignUpViewController: UIViewController {
+class SignUpViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
 
+    @IBOutlet weak var profileImageView: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        
+        /* Make Profile Image Viewer Rounded */
+        self.profileImageView.layer.cornerRadius = profileImageView.frame.width / 2
+        self.profileImageView.clipsToBounds = true
+        // TODO: Make it work with landscape images as well
+
     }
 
+    @IBAction func setProfileImage(_ sender: Any) {
+        let picker = UIImagePickerController()
+        picker.delegate = self
+        picker.sourceType = .photoLibrary
+        
+        self.present(picker, animated: true)
+    }
+    
+    func imagePickerController(_ picker: UIImagePickerController,
+                               didFinishPickingMediaWithInfo info: [String : Any]) {
+        DispatchQueue.main.async {
+            let url = info["UIImagePickerControllerImageURL"] as! URL
+            self.profileImageView.kf.setImage(with: url)
+        }
+        picker.dismiss(animated: true)
+        
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
 
     /*
     // MARK: - Navigation

@@ -8,6 +8,7 @@ target 'tripPlanner' do
 
   # Pods for tripPlanner
   pod 'Kingfisher', '~> 4.0'
+  pod 'lottie-ios'
 
 end
 
