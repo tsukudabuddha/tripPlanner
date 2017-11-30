@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		491C840A1FCF850E00B32933 /* BasicAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491C84091FCF850E00B32933 /* BasicAuth.swift */; };
+		4957AADC1FC3D4D80035886F /* ItineraryCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4957AADB1FC3D4D80035886F /* ItineraryCollectionViewController.swift */; };
+		4957AADE1FC3D5700035886F /* ItineraryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4957AADD1FC3D5700035886F /* ItineraryCollectionViewCell.swift */; };
 		499DBB731FBBA33400F79025 /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499DBB721FBBA33400F79025 /* Networking.swift */; };
 		49CB752F1FC1620E008B0DF3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49CB752E1FC1620E008B0DF3 /* ViewController.swift */; };
 		49CB75311FC16B2E008B0DF3 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49CB75301FC16B2E008B0DF3 /* SignInViewController.swift */; };
@@ -22,6 +25,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		491C84091FCF850E00B32933 /* BasicAuth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicAuth.swift; sourceTree = "<group>"; };
+		4957AADB1FC3D4D80035886F /* ItineraryCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItineraryCollectionViewController.swift; sourceTree = "<group>"; };
+		4957AADD1FC3D5700035886F /* ItineraryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ItineraryCollectionViewCell.swift; path = tripPlanner/ItineraryCollectionViewCell.swift; sourceTree = SOURCE_ROOT; };
 		499DBB721FBBA33400F79025 /* Networking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
 		49CB752E1FC1620E008B0DF3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		49CB75301FC16B2E008B0DF3 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
@@ -52,6 +58,44 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		491C84081FCF84EE00B32933 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				491C84091FCF850E00B32933 /* BasicAuth.swift */,
+			);
+			path = "Support Files";
+			sourceTree = "<group>";
+		};
+		4957AAD81FC3D3CA0035886F /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				49CB75301FC16B2E008B0DF3 /* SignInViewController.swift */,
+				4957AADB1FC3D4D80035886F /* ItineraryCollectionViewController.swift */,
+				49CB75321FC18BAA008B0DF3 /* SignUpViewController.swift */,
+				49D21D9A1FB6CD1200518749 /* TripsTableViewController.swift */,
+				49CB752E1FC1620E008B0DF3 /* ViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		4957AAD91FC3D41A0035886F /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				49D21D8A1FB6C38800518749 /* Main.storyboard */,
+				49D21D8F1FB6C38800518749 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		4957AADA1FC3D4400035886F /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				49D21D9C1FB952F900518749 /* Trip.swift */,
+				499DBB721FBBA33400F79025 /* Networking.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		49D21D7A1FB6C38700518749 = {
 			isa = PBXGroup;
 			children = (
@@ -73,17 +117,14 @@
 		49D21D851FB6C38800518749 /* tripPlanner */ = {
 			isa = PBXGroup;
 			children = (
-				49CB752E1FC1620E008B0DF3 /* ViewController.swift */,
+				491C84081FCF84EE00B32933 /* Support Files */,
 				49D21D861FB6C38800518749 /* AppDelegate.swift */,
-				49D21D8A1FB6C38800518749 /* Main.storyboard */,
-				49CB75301FC16B2E008B0DF3 /* SignInViewController.swift */,
-				49CB75321FC18BAA008B0DF3 /* SignUpViewController.swift */,
-				49D21D9C1FB952F900518749 /* Trip.swift */,
+				4957AAD91FC3D41A0035886F /* Storyboards */,
+				4957AAD81FC3D3CA0035886F /* View Controllers */,
+				4957AADA1FC3D4400035886F /* Classes */,
 				49D21D8D1FB6C38800518749 /* Assets.xcassets */,
+				4957AADD1FC3D5700035886F /* ItineraryCollectionViewCell.swift */,
 				49D21D981FB6CC0D00518749 /* TripTableViewCell.swift */,
-				49D21D9A1FB6CD1200518749 /* TripsTableViewController.swift */,
-				499DBB721FBBA33400F79025 /* Networking.swift */,
-				49D21D8F1FB6C38800518749 /* LaunchScreen.storyboard */,
 				49D21D921FB6C38800518749 /* Info.plist */,
 			);
 			path = tripPlanner;
@@ -237,8 +278,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4957AADE1FC3D5700035886F /* ItineraryCollectionViewCell.swift in Sources */,
 				49CB75311FC16B2E008B0DF3 /* SignInViewController.swift in Sources */,
 				49CB752F1FC1620E008B0DF3 /* ViewController.swift in Sources */,
+				4957AADC1FC3D4D80035886F /* ItineraryCollectionViewController.swift in Sources */,
+				491C840A1FCF850E00B32933 /* BasicAuth.swift in Sources */,
 				49CB75331FC18BAA008B0DF3 /* SignUpViewController.swift in Sources */,
 				49D21D9D1FB952F900518749 /* Trip.swift in Sources */,
 				49D21D991FB6CC0D00518749 /* TripTableViewCell.swift in Sources */,
