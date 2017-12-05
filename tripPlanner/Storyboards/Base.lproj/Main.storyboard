@@ -374,8 +374,8 @@
                                 <color key="backgroundColor" red="0.80000000000000004" green="0.80000000000000004" blue="0.80000000000000004" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                             </imageView>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="eFd-6m-KWF">
-                                <rect key="frame" x="40" y="436" width="38.666666666666657" height="17"/>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Username" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="eFd-6m-KWF">
+                                <rect key="frame" x="39.999999999999993" y="436" width="70.333333333333314" height="17"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
@@ -417,6 +417,9 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="signUpButton:" destination="nGI-qE-WRM" eventType="touchUpInside" id="vwr-gw-AXw"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -462,7 +465,11 @@
                     </view>
                     <navigationItem key="navigationItem" title="Sign Up" id="EPO-VA-GLI"/>
                     <connections>
+                        <outlet property="confirmPasswordTextField" destination="DZB-bK-52Q" id="nPw-dE-AjF"/>
+                        <outlet property="fullNameTextField" destination="euI-hh-wln" id="f8n-ut-8cL"/>
+                        <outlet property="passwordTextField" destination="GQy-eb-IfY" id="PVu-V5-bCA"/>
                         <outlet property="profileImageView" destination="j6R-nu-BYR" id="eGx-1m-NNe"/>
+                        <outlet property="usernameTextField" destination="eFd-6m-KWF" id="1Bp-SX-bQy"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="E1s-YW-CGg" userLabel="First Responder" sceneMemberID="firstResponder"/>

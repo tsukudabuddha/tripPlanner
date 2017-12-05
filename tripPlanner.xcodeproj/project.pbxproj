@@ -62,6 +62,7 @@
 			isa = PBXGroup;
 			children = (
 				491C84091FCF850E00B32933 /* BasicAuth.swift */,
+				499DBB721FBBA33400F79025 /* Networking.swift */,
 			);
 			path = "Support Files";
 			sourceTree = "<group>";
@@ -91,7 +92,6 @@
 			isa = PBXGroup;
 			children = (
 				49D21D9C1FB952F900518749 /* Trip.swift */,
-				499DBB721FBBA33400F79025 /* Networking.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
