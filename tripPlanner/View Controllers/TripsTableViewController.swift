@@ -11,7 +11,7 @@ import Kingfisher
 
 class TripsTableViewController: UITableViewController {
 
-    let trips = [Trip(destination: "San Francisco, USA", duration: 20, landmarks: ["one", "two"], pictureId: "https://static.pexels.com/photos/7653/pexels-photo.jpeg"), Trip(destination: "Machu Picchu, Peru", duration: 20, landmarks: ["Machu", "Ivan"], pictureId: "https://static.pexels.com/photos/259967/pexels-photo-259967.jpeg"), Trip(destination: "Paris, France", duration: 40, landmarks: ["Eiffel Tower", "Street foods"], pictureId: "https://static.pexels.com/photos/604444/pexels-photo-604444.jpeg"), Trip(destination: "Chiang Mai, Thailand", duration: 50, landmarks: ["Beach", "Street foods"], pictureId: "https://static.pexels.com/photos/460376/pexels-photo-460376.jpeg"), Trip(destination: "Helsinki, Finland", duration: 50, landmarks: ["Water", "Pools"], pictureId: "https://static.pexels.com/photos/416728/pexels-photo-416728.jpeg"), Trip(destination: "Hannover, Germany", duration: 2, landmarks: ["Sandra", "Huessin"], pictureId: "https://static.pexels.com/photos/462149/pexels-photo-462149.jpeg")]
+    var trips = [TestData.Peru]
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -28,6 +28,11 @@ class TripsTableViewController: UITableViewController {
         self.navigationController?.navigationBar.setBackgroundImage(UIImage(), for: UIBarMetrics.default)
         self.navigationController?.navigationBar.shadowImage = UIImage()
         self.navigationController?.navigationBar.isTranslucent = true
+        
+        let network = Networking()
+        network.getTrips(resource: .trips) { (tripsResponse) in
+            self.trips = tripsResponse
+        }
         
     }
 
@@ -49,9 +54,9 @@ class TripsTableViewController: UITableViewController {
         /* Get reference to cell */
         let cell = tableView.dequeueReusableCell(withIdentifier: "tripCell", for: indexPath) as! TripTableViewCell
         
-        cell.durationLabel.text = "Duration: \(trips[indexPath.row].duration) days"
+//        cell.durationLabel.text = "Duration: \(trips[indexPath.row].duration) days"
 //        cell.placesLabel.text = "\(trips[indexPath.row].landmarks.count) places"
-        cell.destinationLabel.text = trips[indexPath.row].destination
+        cell.destinationLabel.text = trips[indexPath.row].destinationCity
         cell.backgroundImageView.image = UIImage(named: trips[indexPath.row].pictureId)
         let urlString = trips[indexPath.row].pictureId
         

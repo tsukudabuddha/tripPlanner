@@ -10,7 +10,7 @@ import Foundation
 /*
  Parts of a URL
  1. URLSession
- 2. BaseUrl -> https://api.producthunt.com/v1/
+ 2. BaseUrl -> https://travel-pro-tsukudabuddha.herokuapp.com/
  3. HTTPMethod
  4. Body?
  5. Headers
@@ -26,54 +26,41 @@ enum HTTPMethod: String {
 }
 
 enum Resource {
-    case posts
-    case comments(id: String)
-    
-    func httpMethod() -> HTTPMethod {
-        switch self {
-        case .posts, .comments:
-            return .get
-        }
-    }
-    
-    func httpHeader() -> [String: String] {
-        switch self {
-        case .posts, .comments:
-            return ["Authorization" : "Bearer 77f734273eb7e4b409a3e61aa1827fad91d1e3504e00ec8dac285262ed44f19b",
-                    "Accept": "application/json",
-                    "Content-Type": "application/json",
-                    "Host": "api.producthunt.com"]
-        }
-    }
+    case users
+    case trips
     
     func path() -> String {
         switch self {
-        case .posts:
-            return "/me/feed"
-        case .comments(let id):
-            return "/posts/\(id)/comments"
+        case .users:
+            return "users"
+        case .trips:
+            return "trips"
         }
     }
 }
 
 class Networking {
     let session = URLSession.shared
-    let baseUrl = "https://api.producthunt.com/v1"
-    
-    func getPosts(resource: Resource, completion: @escaping ([Post]) -> Void) {
+//    let baseUrl = "https://travel-pro-tsukudabuddha.herokuapp.com/"
+    let baseUrl = "http://127.0.0.1:5000/"
+
+    func getTrips(resource: Resource, completion: @escaping ([Trip]) -> Void) {
         let fullPath = baseUrl + resource.path()
         let url = URL(string: fullPath)!
         var request = URLRequest(url: url)
         request.httpMethod = "GET"
-        request.allHTTPHeaderFields = resource.httpHeader()
+        let username = "tsukudabuddha"
+        let password = "password"
+        let auth_header = BasicAuth.generateBasicAuthHeader(username: username, password: password)
+        request.setValue("Basic \(auth_header)", forHTTPHeaderField: "Authorization")
         
         session.dataTask(with: request) { (data, resp, err) in
             if let data = data {
                 
-                let postContainer = try? JSONDecoder().decode(PostContainer.self, from: data)
+                let tripContainer = try? JSONDecoder().decode(TripContainer.self, from: data)
                 
-                if let posts = postContainer?.posts {
-                    completion(posts)
+                if let trips = tripContainer?.trips {
+                    completion(trips)
                 } else {
                     print("Post Response: \(String(describing: resp))")
                 }
@@ -83,26 +70,26 @@ class Networking {
         
     }
     
-    func getComments(resource: Resource, completion: @escaping ([Comment]) -> Void) {
+    func addUser(resource: Resource, newUser: User, completion: @escaping ((URLResponse) -> Void)) {
         let fullPath = baseUrl + resource.path()
         let url = URL(string: fullPath)!
         var request = URLRequest(url: url)
-        request.httpMethod = "GET"
-        request.allHTTPHeaderFields = resource.httpHeader()
+        request.httpMethod = HTTPMethod.post.rawValue
+        request.addValue("application/json", forHTTPHeaderField: "Content-Type")
+        var jsonBody = Data()
+        do {
+            jsonBody = try JSONEncoder().encode(newUser)
+        } catch{}
+        request.httpBody = jsonBody
         
         session.dataTask(with: request) { (data, resp, err) in
-            if let data = data {
-                
-                let commentContainer = try? JSONDecoder().decode(CommentContainer.self, from: data)
-                if let comments = commentContainer?.comments {
-                    completion(comments)
-                } else {
-                    print("Comment Response: \(String(describing: resp))")
-                }
-                
+            if let response = resp {
+                completion(response)
+            } else {
+                // TODO: alert the user that the request did not go through
             }
             }.resume()
-        
     }
+    
 }
 

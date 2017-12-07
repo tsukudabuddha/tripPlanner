@@ -34,17 +34,23 @@ class SignUpViewController: UIViewController, UIImagePickerControllerDelegate, U
     }
     
     @IBAction func signUpButton(_ sender: Any) {
-        let fullName = fullNameTextField.text
-        let username = usernameTextField.text
-        let password = passwordTextField.text
-        if password == confirmPasswordTextField.text {
+        let name = fullNameTextField.text!
+        let username = usernameTextField.text!
+        let password = passwordTextField.text!
+        let homeLocation = "No input Field yet, sorry"
+        if password == confirmPasswordTextField.text! {
             print("Making POST request to upload user")
-            print("\(String(describing: fullName))")
-            print("\(username ?? "no username")")
-            print("\(password ?? "no password")")
+            let newUser = User(username: username, name: name, homeLocation: homeLocation, password: password)
+            let network = Networking()
+            network.addUser(resource: .users, newUser: newUser, completion: { (resp) in
+                if let response = resp as? HTTPURLResponse {
+                    print(response.statusCode)
+                }
+            })
         } else {
             print("Alert the user that their passwords do not match")
         }
+        
         
     }
     
