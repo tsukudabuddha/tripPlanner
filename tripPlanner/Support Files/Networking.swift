@@ -41,28 +41,28 @@ enum Resource {
 
 class Networking {
     let session = URLSession.shared
-//    let baseUrl = "https://travel-pro-tsukudabuddha.herokuapp.com/"
-    let baseUrl = "http://127.0.0.1:5000/"
+    let baseUrl = "https://travel-pro-tsukudabuddha.herokuapp.com/"
+//    let baseUrl = "http://127.0.0.1:5000/"
 
-    func getTrips(resource: Resource, completion: @escaping ([Trip]) -> Void) {
-        let fullPath = baseUrl + resource.path()
-        let url = URL(string: fullPath)!
-        var request = URLRequest(url: url)
-        request.httpMethod = "GET"
-        let username = "tsukudabuddha"
-        let password = "password"
-        let auth_header = BasicAuth.generateBasicAuthHeader(username: username, password: password)
-        request.setValue("Basic \(auth_header)", forHTTPHeaderField: "Authorization")
+    func getTrips(resource: Resource, username: String, password: String, completion: @escaping ([Trip?]) -> Void) {
+        let request = generateRequest(resource: resource, method: .get, authorizationRequired: true, username: username, password: password)
+//        let fullPath = baseUrl + resource.path()
+//        let url = URL(string: fullPath)!
+//        var request = URLRequest(url: url)
+//        request.httpMethod = "GET"
+//        let auth_header = BasicAuth.generateBasicAuthHeader(username: username, password: password)
+//        request.addValue("application/json", forHTTPHeaderField: "Content-Type")
+//        request.setValue(auth_header, forHTTPHeaderField: "Authorization")
         
         session.dataTask(with: request) { (data, resp, err) in
             if let data = data {
                 
                 let tripContainer = try? JSONDecoder().decode(TripContainer.self, from: data)
-                
+
                 if let trips = tripContainer?.trips {
                     completion(trips)
                 } else {
-                    print("Post Response: \(String(describing: resp))")
+                    print("Get trips Response: \(String(describing: resp))")
                 }
                 
             }
@@ -76,19 +76,27 @@ class Networking {
         var request = URLRequest(url: url)
         request.httpMethod = HTTPMethod.post.rawValue
         request.addValue("application/json", forHTTPHeaderField: "Content-Type")
-        var jsonBody = Data()
-        do {
-            jsonBody = try JSONEncoder().encode(newUser)
-        } catch{}
-        request.httpBody = jsonBody
+        let encodedData = try? JSONEncoder().encode(newUser)
+        request.httpBody = encodedData
         
         session.dataTask(with: request) { (data, resp, err) in
             if let response = resp {
                 completion(response)
-            } else {
-                // TODO: alert the user that the request did not go through
             }
-            }.resume()
+        }.resume()
+    }
+    
+    func generateRequest(resource: Resource, method: HTTPMethod, authorizationRequired: Bool, username: String?, password: String?) -> URLRequest {
+        let fullPath = baseUrl + resource.path()
+        let url = URL(string: fullPath)!
+        var request = URLRequest(url: url)
+        request.httpMethod = method.rawValue
+        request.addValue("application/json", forHTTPHeaderField: "Content-Type")
+        if authorizationRequired {
+            let auth_header = BasicAuth.generateBasicAuthHeader(username: username!, password: password!)
+            request.setValue(auth_header, forHTTPHeaderField: "Authorization")
+        }
+        return request
     }
     
 }

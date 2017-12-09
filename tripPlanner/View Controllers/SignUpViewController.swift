@@ -45,6 +45,38 @@ class SignUpViewController: UIViewController, UIImagePickerControllerDelegate, U
             network.addUser(resource: .users, newUser: newUser, completion: { (resp) in
                 if let response = resp as? HTTPURLResponse {
                     print(response.statusCode)
+                    let alert = UIAlertController(title: "Sorry an unknown error has occured", message: "Please try again", preferredStyle: .alert)
+                    
+                    switch response.statusCode {
+                    case 200:
+                        alert.title = "Congrats on signing up!"
+                        alert.message = "Your account has been created!"
+                        alert.addAction(UIAlertAction(title: "Ok", style: .default, handler: { (action) in
+                            /* Transition to Trips screen  */
+                            DispatchQueue.main.async {
+                                //                                self.performSegue(withIdentifier: "signUpToTrips", sender: self)
+                                let window = UIApplication.shared.delegate!.window!
+                                
+                                window?.rootViewController = UIStoryboard(
+                                    name: "Main",
+                                    bundle: Bundle.main
+                                    ).instantiateViewController(withIdentifier: "tripsNavigationController")
+                                window?.makeKeyAndVisible()
+                            }
+                        }))
+                        
+                    case 409:
+                        alert.title = "Sorry that username is already taken"
+                        alert.message = "Try signing in?"
+                        alert.addAction(UIAlertAction(title: "Sign In", style: .default, handler: { (action) in
+                            /* Transition to Sign in Screen  */
+                            }))
+                            
+                    default:
+                        print("Resort to default alert(?)")
+                    }
+                    self.showAlert(alert: alert)
+                    
                 }
             })
         } else {
@@ -86,6 +118,12 @@ class SignUpViewController: UIViewController, UIImagePickerControllerDelegate, U
         }
         picker.dismiss(animated: true)
         
+    }
+    
+    func showAlert(alert: UIAlertController) {
+        DispatchQueue.main.async {
+            self.present(alert, animated: true, completion: nil)
+        }
     }
     /*
     // MARK: - Navigation

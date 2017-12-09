@@ -8,10 +8,27 @@
 
 import UIKit
 import Kingfisher
+import KeychainSwift
 
 class TripsTableViewController: UITableViewController {
+    var username: String?
+    var password: String?
+    
+//    func storeLogInInfo(username: String, password: String) {
+//        self.username = username
+//        self.password = password
+//        print("username: \(self.username)")
+//        print("password: \(self.password)")
+//    }
+//
 
-    var trips = [TestData.Peru]
+    var trips = [TestData.Peru] {
+        didSet {
+            DispatchQueue.main.async {
+                self.tableView.reloadData()
+            }
+        }
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -29,14 +46,30 @@ class TripsTableViewController: UITableViewController {
         self.navigationController?.navigationBar.shadowImage = UIImage()
         self.navigationController?.navigationBar.isTranslucent = true
         
-        let network = Networking()
-        network.getTrips(resource: .trips) { (tripsResponse) in
-            self.trips = tripsResponse
+        let keychain = KeychainSwift()
+        
+        if let username = keychain.get("username"), let password = keychain.get("password") {
+            let network = Networking()
+            network.getTrips(resource: .trips, username: username, password: password) { (trips) in
+                for trip in trips {
+                    if let trip = trip {
+                        self.trips.append(trip)
+                    }
+                }
+            }
         }
+        
+        
         
     }
 
-
+    @IBAction func addTrip(_ sender: Any) {
+        let controller = storyboard?.instantiateViewController(withIdentifier: "addTripVC")
+        if let controller = controller {
+            self.navigationController?.pushViewController(controller, animated: true)
+        }
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

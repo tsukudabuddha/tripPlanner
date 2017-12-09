@@ -23,7 +23,7 @@ struct Trip {
 }
 
 struct TripContainer: Decodable {
-    let trips: [Trip]
+    let trips: [Trip?]
 }
 
 extension Trip: Decodable {
