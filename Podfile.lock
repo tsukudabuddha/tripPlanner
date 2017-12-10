@@ -1,18 +1,21 @@
 PODS:
+  - IHKeyboardAvoiding (4.1)
   - KeychainSwift (10.0.0)
   - Kingfisher (4.2.0)
   - lottie-ios (2.1.4)
 
 DEPENDENCIES:
+  - IHKeyboardAvoiding
   - KeychainSwift (~> 10.0)
   - Kingfisher (~> 4.0)
   - lottie-ios
 
 SPEC CHECKSUMS:
+  IHKeyboardAvoiding: 5f42b8ff1f64144ea425b1954e4311eb6bf9077a
   KeychainSwift: f9f7910449a0c0fd2cabc889121530dd2c477c33
   Kingfisher: 9ee7e788d8ba07c3f21ce0d43f33cec310a4f781
   lottie-ios: 94fa2d82547ce3adf1e61157653ba99999fd279f
 
-PODFILE CHECKSUM: ab0098a0ef67955f95e38ac59924984c9f36e58a
+PODFILE CHECKSUM: d2559507ce893bc6335c07f4a13f98a07a0225bc
 
 COCOAPODS: 1.3.1

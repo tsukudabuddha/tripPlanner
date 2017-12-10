@@ -10,6 +10,7 @@ target 'tripPlanner' do
   pod 'Kingfisher', '~> 4.0'
   pod 'lottie-ios'
   pod 'KeychainSwift', '~> 10.0'
+  pod 'IHKeyboardAvoiding'
 
 end
 

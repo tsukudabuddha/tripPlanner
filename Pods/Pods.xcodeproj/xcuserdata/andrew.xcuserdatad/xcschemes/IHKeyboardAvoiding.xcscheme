@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'B0B8831CC41B8663716AAF9353BAF7C3'
-               BlueprintName = 'Pods-tripPlanner'
+               BlueprintIdentifier = '033B2F5EFC98402794E5FA4A2E42BD9F'
+               BlueprintName = 'IHKeyboardAvoiding'
                ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'Pods-tripPlanner.framework'>
+               BuildableName = 'IHKeyboardAvoiding.framework'>
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

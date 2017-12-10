@@ -9,15 +9,9 @@
 import UIKit
 import KeychainSwift
 
-protocol signInDelegate: class {
-    func storeLogInInfo(username: String, password: String)
-    
-}
-
 class SignInViewController: UIViewController {
     @IBOutlet weak var usernameTextField: UITextField!
     @IBOutlet weak var passwordTextField: UITextField!
-//    weak var delegate: signInDelegate?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -32,19 +26,21 @@ class SignInViewController: UIViewController {
         // Move view up when typing
         NotificationCenter.default.addObserver(self, selector: #selector(self.keyboardWillShow(notification:)), name: NSNotification.Name.UIKeyboardWillShow, object: nil)
         NotificationCenter.default.addObserver(self, selector: #selector(self.keyboardWillHide(notification:)), name: NSNotification.Name.UIKeyboardWillHide, object: nil)
+        
+        /* Create sychronizable keychain instance */
         let keychain = KeychainSwift()
         keychain.synchronizable = true
+        
+        /* Uncomment to reset keychain */
+        // keychain.clear()
+        
+        /* Check if the userrs credentials are store in keychain */
         if keychain.get("username") != nil && keychain.get("password") != nil {
-            /* Load trips page instead */
-            let window = UIApplication.shared.delegate!.window!
-            
-            window?.rootViewController = UIStoryboard(
-                name: "Main",
-                bundle: Bundle.main
-                ).instantiateViewController(withIdentifier: "tripsNavigationController")
-            window?.makeKeyAndVisible()
+            /* If the users credentials are stored, load the trips page instead */
+            loadTripsView()
         }
     }
+
     @IBAction func signInClicked(_ sender: Any) {
         if let username = usernameTextField.text, let password = passwordTextField.text {
             
@@ -53,16 +49,22 @@ class SignInViewController: UIViewController {
             keychain.set(username, forKey: "username")
             keychain.set(password, forKey: "password")
             
-            /* Load Trips Screen */
-            let window = UIApplication.shared.delegate!.window!
+            /* Then Load trips view */
+            loadTripsView()
             
-            window?.rootViewController = UIStoryboard(
-                name: "Main",
-                bundle: Bundle.main
-                ).instantiateViewController(withIdentifier: "tripsNavigationController")
-            
-            window?.makeKeyAndVisible()
         }
+    }
+    
+    func loadTripsView() {
+        /* Load Trips Screen */
+        let window = UIApplication.shared.delegate!.window!
+        
+        window?.rootViewController = UIStoryboard(
+            name: "Main",
+            bundle: Bundle.main
+            ).instantiateViewController(withIdentifier: "tripsNavigationController")
+        
+        window?.makeKeyAndVisible()
     }
     
     @objc func keyboardWillShow(notification: NSNotification) {
