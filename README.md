@@ -12,6 +12,7 @@ What things you need to install the software and how to install them
 
 ```
 Xcode 8.0.0+
+iOS Device or Simulator on iOS 10 +
 ```
 
 ### Installing
@@ -61,7 +62,7 @@ Add additional notes about how to deploy this on a live system
 * [Lottie](https://github.com/airbnb/lottie-ios) - Used for animations
 * [King Fisher](http://onevcat.github.io/Kingfisher/index.html) - Download and cache images
 * [KeyChain Swift](https://github.com/evgenyneu/keychain-swift) - Store Login info in keychain
-* [IHKeyboardAvoiding] (https://github.com/IdleHandsApps/IHKeyboardAvoiding) - Move view up so user can reach all input fields
+* [IHKeyboardAvoiding](https://github.com/IdleHandsApps/IHKeyboardAvoiding) - Move view up so user can reach all input fields
 
 
 

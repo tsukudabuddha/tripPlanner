@@ -31,7 +31,7 @@ class SignInViewController: UIViewController {
         let keychain = KeychainSwift()
         keychain.synchronizable = true
         
-        /* Uncomment to reset keychain */
+        /* Uncomment to reset keychain/ test the login and signup screens */
         keychain.clear()
         
         /* Check if the userrs credentials are store in keychain */
