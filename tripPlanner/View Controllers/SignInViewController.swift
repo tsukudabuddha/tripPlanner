@@ -8,6 +8,7 @@
 
 import UIKit
 import KeychainSwift
+import IHKeyboardAvoiding
 
 class SignInViewController: UIViewController {
     @IBOutlet weak var usernameTextField: UITextField!
@@ -23,16 +24,15 @@ class SignInViewController: UIViewController {
         self.navigationController?.navigationBar.shadowImage = UIImage()
         self.navigationController?.navigationBar.isTranslucent = true
         
-        // Move view up when typing
-        NotificationCenter.default.addObserver(self, selector: #selector(self.keyboardWillShow(notification:)), name: NSNotification.Name.UIKeyboardWillShow, object: nil)
-        NotificationCenter.default.addObserver(self, selector: #selector(self.keyboardWillHide(notification:)), name: NSNotification.Name.UIKeyboardWillHide, object: nil)
+        /* Make UI move to fit keyboard */
+        KeyboardAvoiding.avoidingView = self.view
         
         /* Create sychronizable keychain instance */
         let keychain = KeychainSwift()
         keychain.synchronizable = true
         
         /* Uncomment to reset keychain */
-        // keychain.clear()
+        keychain.clear()
         
         /* Check if the userrs credentials are store in keychain */
         if keychain.get("username") != nil && keychain.get("password") != nil {
@@ -66,23 +66,6 @@ class SignInViewController: UIViewController {
         
         window?.makeKeyAndVisible()
     }
-    
-    @objc func keyboardWillShow(notification: NSNotification) {
-        if let keyboardSize = (notification.userInfo?[UIKeyboardFrameBeginUserInfoKey] as? NSValue)?.cgRectValue {
-            if self.view.frame.origin.y == 0{
-                self.view.frame.origin.y -= keyboardSize.height
-            }
-        }
-    }
-    
-    @objc func keyboardWillHide(notification: NSNotification) {
-        if let keyboardSize = (notification.userInfo?[UIKeyboardFrameBeginUserInfoKey] as? NSValue)?.cgRectValue {
-            if self.view.frame.origin.y != 0{
-                self.view.frame.origin.y += keyboardSize.height
-            }
-        }
-    }
-    
 
     /*
     // MARK: - Navigation
