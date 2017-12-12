@@ -32,7 +32,7 @@ class SignInViewController: UIViewController {
         keychain.synchronizable = true
         
         /* Uncomment to reset keychain/ test the login and signup screens */
-        keychain.clear()
+//        keychain.clear()
         
         /* Check if the userrs credentials are store in keychain */
         if keychain.get("username") != nil && keychain.get("password") != nil {

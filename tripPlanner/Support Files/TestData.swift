@@ -9,7 +9,7 @@
 import Foundation
 
 struct TestData {
-    static let Peru = Trip(destinationCountry: "Peru", destinationCity: "Macchu Picchu", landmarks: ["Machu Picchu"], pictureId: "https://static.pexels.com/photos/259967/pexels-photo-259967.jpeg")
+    static let Peru = Trip(_id: "", destinationCountry: "Peru", destinationCity: " ", landmarks: ["Machu Picchu"], pictureId: "https://static.pexels.com/photos/259967/pexels-photo-259967.jpeg", travelers: ["admin"])
 }
 
 

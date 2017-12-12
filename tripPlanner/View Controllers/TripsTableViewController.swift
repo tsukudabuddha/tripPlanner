@@ -46,6 +46,9 @@ class TripsTableViewController: UITableViewController {
         self.navigationController?.navigationBar.shadowImage = UIImage()
         self.navigationController?.navigationBar.isTranslucent = true
         
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
         let keychain = KeychainSwift()
         
         if let username = keychain.get("username"), let password = keychain.get("password") {
@@ -58,9 +61,6 @@ class TripsTableViewController: UITableViewController {
                 }
             }
         }
-        
-        
-        
     }
 
     @IBAction func addTrip(_ sender: Any) {
@@ -90,6 +90,11 @@ class TripsTableViewController: UITableViewController {
 //        cell.durationLabel.text = "Duration: \(trips[indexPath.row].duration) days"
 //        cell.placesLabel.text = "\(trips[indexPath.row].landmarks.count) places"
         cell.destinationLabel.text = trips[indexPath.row].destinationCity
+    
+        if trips[indexPath.row].destinationCity.trimmingCharacters(in: .whitespaces).isEmpty {
+            cell.destinationLabel.text = trips[indexPath.row].destinationCountry
+        }
+        
         cell.backgroundImageView.image = UIImage(named: trips[indexPath.row].pictureId)
         let urlString = trips[indexPath.row].pictureId
         

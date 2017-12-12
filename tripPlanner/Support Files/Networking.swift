@@ -57,12 +57,13 @@ class Networking {
         session.dataTask(with: request) { (data, resp, err) in
             if let data = data {
                 
-                let tripContainer = try? JSONDecoder().decode(TripContainer.self, from: data)
+                let trips = try? JSONDecoder().decode([Trip].self, from: data)
 
-                if let trips = tripContainer?.trips {
+                if let trips = trips {
                     completion(trips)
                 } else {
                     print("Get trips Response: \(String(describing: resp))")
+                    print("trip: \(data.description)")
                 }
                 
             }

@@ -69,6 +69,7 @@ Add additional notes about how to deploy this on a live system
 ## Authors
 
 * **Andrew Tsukuda** - *Initial work* - [TsukudaBuddha](https://github.com/tsukudabuddha)
+* **NYC Five** - *Majority of designs* - [Contact](http://five.agency/contact/)
 
 See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
