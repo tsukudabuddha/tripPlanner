@@ -14,6 +14,7 @@ import Hero
 class TripsViewController: UIViewController, UITableViewDataSource, UITabBarDelegate {
     
     @IBOutlet weak var menuLeadingSpaceConstraint: NSLayoutConstraint!
+    @IBOutlet weak var hamburgerMenuView: UIView!
     
     @IBOutlet weak var tripsTableView: UITableView!
     
@@ -34,7 +35,7 @@ class TripsViewController: UIViewController, UITableViewDataSource, UITabBarDele
     
     func hideMenu() {
         UIView.animate(withDuration: 0.8, animations: {
-            self.menuLeadingSpaceConstraint.constant = -300
+            self.menuLeadingSpaceConstraint.constant = self.hamburgerMenuView.frame.width * -1
             self.view.layoutIfNeeded()
         })
     }
@@ -87,6 +88,10 @@ class TripsViewController: UIViewController, UITableViewDataSource, UITabBarDele
                                  action: #selector(refreshOptions(sender:)),
                                  for: .valueChanged)
         tripsTableView.refreshControl = refreshControl
+        
+        /* Add shadow to menu */
+        hamburgerMenuView.dropShadow()
+        
         
     }
     
