@@ -9,8 +9,11 @@
 import UIKit
 import Kingfisher
 import KeychainSwift
+import Hero
 
 class TripsViewController: UIViewController, UITableViewDataSource, UITabBarDelegate {
+    
+    @IBOutlet weak var menuLeadingSpaceConstraint: NSLayoutConstraint!
     
     @IBOutlet weak var tripsTableView: UITableView!
     
@@ -22,7 +25,48 @@ class TripsViewController: UIViewController, UITableViewDataSource, UITabBarDele
         }
     }
     
-
+    func showMenu() {
+        UIView.animate(withDuration: 0.8, animations: {
+                self.menuLeadingSpaceConstraint.constant = 0
+                self.view.layoutIfNeeded()
+        })
+    }
+    
+    func hideMenu() {
+        UIView.animate(withDuration: 0.8, animations: {
+            self.menuLeadingSpaceConstraint.constant = -300
+            self.view.layoutIfNeeded()
+        })
+    }
+    
+    @IBAction func panGestureHandler(_ sender: UIPanGestureRecognizer) {
+        
+        if sender.state == .began || sender.state == .changed {
+            let translation = sender.translation(in: self.view).x * 0.1
+            
+            if translation > 0 { // Swipe Right
+                showMenu()
+            } else {
+                hideMenu()
+            }
+        
+        }
+    }
+    
+    @IBAction func menuButton(_ sender: Any) {
+        switch menuLeadingSpaceConstraint.constant {
+        case 0:
+            hideMenu()
+        case -300:
+            showMenu()
+        default:
+            break
+            
+        }
+        
+        
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

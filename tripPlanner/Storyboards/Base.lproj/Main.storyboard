@@ -96,19 +96,42 @@
                                     <outlet property="delegate" destination="Gqt-WA-xVr" id="81B-99-hKX"/>
                                 </connections>
                             </tableView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9to-5d-mf4">
+                                <rect key="frame" x="-300" y="0.0" width="300" height="736"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="300" id="Ebc-Ea-a0D"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="heroID" value="hamburgerMenu"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <gestureRecognizers/>
                         <constraints>
                             <constraint firstItem="e4s-G4-9AG" firstAttribute="bottom" secondItem="Drh-aC-cxd" secondAttribute="bottom" id="BhA-qt-tEP"/>
+                            <constraint firstItem="9to-5d-mf4" firstAttribute="leading" secondItem="Drh-aC-cxd" secondAttribute="leading" constant="-300" id="ECf-vt-aHY"/>
                             <constraint firstItem="e4s-G4-9AG" firstAttribute="height" secondItem="SSL-11-gEY" secondAttribute="height" id="bAf-Hc-h17"/>
+                            <constraint firstItem="Drh-aC-cxd" firstAttribute="bottom" secondItem="9to-5d-mf4" secondAttribute="bottom" id="d5H-Am-aPn"/>
+                            <constraint firstItem="Drh-aC-cxd" firstAttribute="top" secondItem="9to-5d-mf4" secondAttribute="top" constant="64" id="h2U-vI-VJe"/>
                             <constraint firstItem="e4s-G4-9AG" firstAttribute="leading" secondItem="SSL-11-gEY" secondAttribute="leading" id="kfh-Lx-k9n"/>
                             <constraint firstItem="e4s-G4-9AG" firstAttribute="width" secondItem="SSL-11-gEY" secondAttribute="width" id="xSj-v8-KJd"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Drh-aC-cxd"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="string" keyPath="heroID" value="hamburgerMenu"/>
+                        </userDefinedRuntimeAttributes>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="3od-9N-H8V" appends="YES" id="GQh-4j-lu0"/>
+                        </connections>
                     </view>
                     <navigationItem key="navigationItem" title="Trips" id="tbT-s3-4U6">
                         <barButtonItem key="leftBarButtonItem" title="Menu" image="Menu" style="plain" id="10w-HJ-eLf">
                             <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <action selector="menuButton:" destination="Gqt-WA-xVr" id="d9f-wB-zzP"/>
+                            </connections>
                         </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="TcD-Oc-XPK">
                             <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -118,12 +141,18 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
+                        <outlet property="menuLeadingSpaceConstraint" destination="ECf-vt-aHY" id="Oy1-VT-AIa"/>
                         <outlet property="tripsTableView" destination="e4s-G4-9AG" id="paq-kj-AnJ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Sxo-Qg-CTg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="3od-9N-H8V">
+                    <connections>
+                        <action selector="panGestureHandler:" destination="Gqt-WA-xVr" id="FF0-Ao-ZzS"/>
+                    </connections>
+                </panGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="420" y="1671"/>
+            <point key="canvasLocation" x="418.84057971014494" y="1670.3804347826087"/>
         </scene>
         <!--Destination Table View Controller-->
         <scene sceneID="4Uy-M6-6ef">
@@ -306,6 +335,9 @@
                         </textAttributes>
                     </navigationBar>
                     <nil name="viewControllers"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="isHeroEnabled" value="YES"/>
+                    </userDefinedRuntimeAttributes>
                     <connections>
                         <segue destination="Gqt-WA-xVr" kind="relationship" relationship="rootViewController" id="BLf-O0-OBb"/>
                     </connections>
