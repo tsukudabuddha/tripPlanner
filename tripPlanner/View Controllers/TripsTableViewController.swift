@@ -13,14 +13,6 @@ import KeychainSwift
 class TripsTableViewController: UITableViewController {
     var username: String?
     var password: String?
-    
-//    func storeLogInInfo(username: String, password: String) {
-//        self.username = username
-//        self.password = password
-//        print("username: \(self.username)")
-//        print("password: \(self.password)")
-//    }
-//
 
     var trips = [TestData.Peru] {
         didSet {
@@ -45,6 +37,36 @@ class TripsTableViewController: UITableViewController {
         self.navigationController?.navigationBar.setBackgroundImage(UIImage(), for: UIBarMetrics.default)
         self.navigationController?.navigationBar.shadowImage = UIImage()
         self.navigationController?.navigationBar.isTranslucent = true
+        
+        let refreshControl = UIRefreshControl()
+        let title = NSLocalizedString("Pull To Refresh", comment: "Pull to refresh")
+        refreshControl.attributedTitle = NSAttributedString(string: title, attributes: [NSAttributedStringKey.foregroundColor : UIColor.white])
+        refreshControl.addTarget(self,
+                                 action: #selector(refreshOptions(sender:)),
+                                 for: .valueChanged)
+        tableView.refreshControl = refreshControl
+        
+    }
+    
+    @objc private func refreshOptions(sender: UIRefreshControl) {
+        /* Hide Navigation Bar */
+        self.navigationController?.navigationBar.isHidden = true
+        
+        /* Refresh the tableView data */
+        let keychain = KeychainSwift()
+        if let username = keychain.get("username"), let password = keychain.get("password") {
+            let network = Networking()
+            network.getTrips(resource: .trips, username: username, password: password) { (trips) in
+                for trip in trips {
+                    if let trip = trip {
+                        self.trips.append(trip)
+                    }
+                }
+                DispatchQueue.main.async {
+                    sender.endRefreshing()
+                }
+            }
+        }
         
     }
     
