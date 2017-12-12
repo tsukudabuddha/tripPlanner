@@ -98,9 +98,42 @@
                             </tableView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9to-5d-mf4">
                                 <rect key="frame" x="-300" y="0.0" width="300" height="736"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="GrayLogo" translatesAutoresizingMaskIntoConstraints="NO" id="xhv-co-K0x">
+                                        <rect key="frame" x="75" y="70" width="150" height="150"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="150" id="25y-cX-aIj"/>
+                                            <constraint firstAttribute="height" constant="150" id="lHb-XD-cjc"/>
+                                        </constraints>
+                                    </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Bm-ap-K8C">
+                                        <rect key="frame" x="0.0" y="319" width="300" height="39"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                        <state key="normal" title="Profile">
+                                            <color key="titleColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OAv-eH-A2A">
+                                        <rect key="frame" x="0.0" y="270" width="300" height="39"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                        <state key="normal" title="Trips">
+                                            <color key="titleColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                    </button>
+                                </subviews>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
+                                    <constraint firstItem="2Bm-ap-K8C" firstAttribute="leading" secondItem="9to-5d-mf4" secondAttribute="leading" id="3EP-0a-zkM"/>
+                                    <constraint firstAttribute="trailing" secondItem="OAv-eH-A2A" secondAttribute="trailing" id="4X3-TK-qoB"/>
                                     <constraint firstAttribute="width" constant="300" id="Ebc-Ea-a0D"/>
+                                    <constraint firstItem="2Bm-ap-K8C" firstAttribute="centerX" secondItem="9to-5d-mf4" secondAttribute="centerX" id="KeG-et-crW"/>
+                                    <constraint firstItem="xhv-co-K0x" firstAttribute="centerX" secondItem="9to-5d-mf4" secondAttribute="centerX" id="QeF-W7-ESX"/>
+                                    <constraint firstItem="OAv-eH-A2A" firstAttribute="centerX" secondItem="9to-5d-mf4" secondAttribute="centerX" id="UIf-PH-fYA"/>
+                                    <constraint firstAttribute="trailing" secondItem="2Bm-ap-K8C" secondAttribute="trailing" id="bGi-bj-ai4"/>
+                                    <constraint firstItem="2Bm-ap-K8C" firstAttribute="top" secondItem="OAv-eH-A2A" secondAttribute="bottom" constant="10" id="cFz-dn-NAI"/>
+                                    <constraint firstItem="xhv-co-K0x" firstAttribute="top" secondItem="9to-5d-mf4" secondAttribute="top" constant="70" id="fIE-Ee-zWQ"/>
+                                    <constraint firstItem="OAv-eH-A2A" firstAttribute="leading" secondItem="9to-5d-mf4" secondAttribute="leading" id="mrM-ka-Wn0"/>
+                                    <constraint firstItem="OAv-eH-A2A" firstAttribute="top" secondItem="xhv-co-K0x" secondAttribute="bottom" constant="50" id="xol-xk-XyC"/>
                                 </constraints>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="string" keyPath="heroID" value="hamburgerMenu"/>
@@ -150,7 +183,7 @@
                     </connections>
                 </panGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="-896" y="2154"/>
+            <point key="canvasLocation" x="-389.85507246376812" y="2153.804347826087"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="5GY-Oh-GLf">
@@ -471,6 +504,7 @@
     <resources>
         <image name="Fill 91" width="64" height="92"/>
         <image name="Fill 96" width="38" height="49"/>
+        <image name="GrayLogo" width="186" height="185"/>
         <image name="Line" width="654" height="3"/>
         <image name="Logo" width="130" height="130"/>
         <image name="Menu" width="20" height="14"/>

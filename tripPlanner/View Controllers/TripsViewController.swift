@@ -11,7 +11,7 @@ import Kingfisher
 import KeychainSwift
 import Hero
 
-class TripsViewController: UIViewController, UITableViewDataSource, UITabBarDelegate {
+class TripsViewController: UIViewController, UITableViewDataSource {
     
     @IBOutlet weak var menuLeadingSpaceConstraint: NSLayoutConstraint!
     @IBOutlet weak var hamburgerMenuView: UIView!
