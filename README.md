@@ -59,7 +59,7 @@ Add additional notes about how to deploy this on a live system
 
 ## Built With
 
-* [Lottie](https://github.com/airbnb/lottie-ios) - Used for animations
+* [Hero](https://github.com/lkzhao/Hero) - Used for animations
 * [King Fisher](http://onevcat.github.io/Kingfisher/index.html) - Download and cache images
 * [KeyChain Swift](https://github.com/evgenyneu/keychain-swift) - Store Login info in keychain
 * [IHKeyboardAvoiding](https://github.com/IdleHandsApps/IHKeyboardAvoiding) - Move view up so user can reach all input fields

@@ -8,7 +8,7 @@ target 'tripPlanner' do
 
   # Pods for tripPlanner
   pod 'Kingfisher', '~> 4.0'
-  pod 'lottie-ios'
+  pod 'Hero'
   pod 'KeychainSwift', '~> 10.0'
   pod 'IHKeyboardAvoiding'
 
