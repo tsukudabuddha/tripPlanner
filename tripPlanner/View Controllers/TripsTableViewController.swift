@@ -12,7 +12,7 @@ import KeychainSwift
 
 class TripsTableViewController: UITableViewController {
     var username: String?
-    var password: String?
+    var password: String? 
 
     var trips = [TestData.Peru] {
         didSet {
@@ -38,6 +38,7 @@ class TripsTableViewController: UITableViewController {
         self.navigationController?.navigationBar.shadowImage = UIImage()
         self.navigationController?.navigationBar.isTranslucent = true
         
+        /* Setup Refresh Controller */
         let refreshControl = UIRefreshControl()
         let title = NSLocalizedString("Pull To Refresh", comment: "Pull to refresh")
         refreshControl.attributedTitle = NSAttributedString(string: title, attributes: [NSAttributedStringKey.foregroundColor : UIColor.white])
@@ -57,11 +58,7 @@ class TripsTableViewController: UITableViewController {
         if let username = keychain.get("username"), let password = keychain.get("password") {
             let network = Networking()
             network.getTrips(resource: .trips, username: username, password: password) { (trips) in
-                for trip in trips {
-                    if let trip = trip {
-                        self.trips.append(trip)
-                    }
-                }
+                self.trips = trips
                 DispatchQueue.main.async {
                     sender.endRefreshing()
                 }
@@ -76,11 +73,7 @@ class TripsTableViewController: UITableViewController {
         if let username = keychain.get("username"), let password = keychain.get("password") {
             let network = Networking()
             network.getTrips(resource: .trips, username: username, password: password) { (trips) in
-                for trip in trips {
-                    if let trip = trip {
-                        self.trips.append(trip)
-                    }
-                }
+                self.trips = trips
             }
         }
     }
@@ -112,6 +105,8 @@ class TripsTableViewController: UITableViewController {
 //        cell.durationLabel.text = "Duration: \(trips[indexPath.row].duration) days"
 //        cell.placesLabel.text = "\(trips[indexPath.row].landmarks.count) places"
         cell.destinationLabel.text = trips[indexPath.row].destinationCity
+//        cell.backgroundColor = UIColor.black // Remove white lines between cells
+        tableView.separatorStyle = .none
     
         if trips[indexPath.row].destinationCity.trimmingCharacters(in: .whitespaces).isEmpty {
             cell.destinationLabel.text = trips[indexPath.row].destinationCountry

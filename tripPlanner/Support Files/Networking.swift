@@ -44,15 +44,8 @@ class Networking {
     let baseUrl = "https://travel-pro-tsukudabuddha.herokuapp.com/"
 //    let baseUrl = "http://127.0.0.1:5000/"
 
-    func getTrips(resource: Resource, username: String, password: String, completion: @escaping ([Trip?]) -> Void) {
+    func getTrips(resource: Resource, username: String, password: String, completion: @escaping ([Trip]) -> Void) {
         let request = generateRequest(resource: resource, method: .get, authorizationRequired: true, username: username, password: password)
-//        let fullPath = baseUrl + resource.path()
-//        let url = URL(string: fullPath)!
-//        var request = URLRequest(url: url)
-//        request.httpMethod = "GET"
-//        let auth_header = BasicAuth.generateBasicAuthHeader(username: username, password: password)
-//        request.addValue("application/json", forHTTPHeaderField: "Content-Type")
-//        request.setValue(auth_header, forHTTPHeaderField: "Authorization")
         
         session.dataTask(with: request) { (data, resp, err) in
             if let data = data {
