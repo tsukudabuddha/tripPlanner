@@ -7,96 +7,96 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		027CA471A5342D9D831895410495EE51 /* HeroTransition+UINavigationControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3690AE764EC72C833B9A06B1503D97E /* HeroTransition+UINavigationControllerDelegate.swift */; };
-		07432E8DEA8B25795C7C545AA67A0187 /* ImageTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA3FEE1D1507F2B9EADCC3B5505992F /* ImageTransition.swift */; };
-		08AA89D020B5C4FD74D1529A3E972AB9 /* KeychainSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D0421232DACBB9C5E48889532AD377E4 /* KeychainSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0A449D9876FB5AABA25A730F95AC7A4D /* Regex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98BD27F587C452BB523F047AD21D3B3C /* Regex.swift */; };
-		0A69B0DEFD6FD1733EE1947354C4405D /* HeroCoreAnimationViewContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC17EAB635049D84D20BC1E5209C057C /* HeroCoreAnimationViewContext.swift */; };
+		027CA471A5342D9D831895410495EE51 /* HeroTransition+UINavigationControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB403EED2C9425D41A27B0B850B84B42 /* HeroTransition+UINavigationControllerDelegate.swift */; };
+		07432E8DEA8B25795C7C545AA67A0187 /* ImageTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB2ACF31BC9A54D17D323CA6DBF67551 /* ImageTransition.swift */; };
+		08AA89D020B5C4FD74D1529A3E972AB9 /* KeychainSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 91EEE13BFA8A637B66974F3408491F91 /* KeychainSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0A449D9876FB5AABA25A730F95AC7A4D /* Regex.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4469B49BCB03110837B69C0B2539D02 /* Regex.swift */; };
+		0A69B0DEFD6FD1733EE1947354C4405D /* HeroCoreAnimationViewContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196029C05589647402BE6933B2E66957 /* HeroCoreAnimationViewContext.swift */; };
 		0CA6357476373C221D44C498AA1D65FE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDDF8D75AA654F65ACE2125C52AFAAD2 /* Foundation.framework */; };
-		10AD5E70FDD53228153032C58FBF4D52 /* String+MD5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F6A636DDD66CEDC502501F4D4719BF /* String+MD5.swift */; };
-		131BD0796B5EF130D3C7224265B5E8C1 /* MatchPreprocessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9CB21327DEC0E91FABF499FBD9DAB83 /* MatchPreprocessor.swift */; };
-		131BD954572AE0F9B1EF5F12B04BD724 /* Hero-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0ED6A558F6E7B60B860554EDCE92AD95 /* Hero-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		10AD5E70FDD53228153032C58FBF4D52 /* String+MD5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00492F977B6706E90512BC046D592439 /* String+MD5.swift */; };
+		131BD0796B5EF130D3C7224265B5E8C1 /* MatchPreprocessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7733C89C2A849F2B3FF4CECC5782C89 /* MatchPreprocessor.swift */; };
+		131BD954572AE0F9B1EF5F12B04BD724 /* Hero-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 50274507A5CF2A76B53B091768B51518 /* Hero-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		16ED39F2E1F2201AF2B28557D19D3B6F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 321DA4FBF5721A7FB806D2982ED127C8 /* UIKit.framework */; };
 		171FE4DE5A850C5E247E1C3B7D2B004C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDDF8D75AA654F65ACE2125C52AFAAD2 /* Foundation.framework */; };
-		1827E7D94F3A12CA0C58EF33AE4B026D /* KingfisherOptionsInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDE54BA2B802B89CAD3D02CA48B342B /* KingfisherOptionsInfo.swift */; };
-		1DAF3BB88351664576507F774FEB051C /* Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26FFA0AE440BEAAF59E7D97456A0B62 /* Filter.swift */; };
-		1FCC0970C8435F10768CA84C2025A177 /* Resource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526AC20AFD256119E89218981DDEFAAB /* Resource.swift */; };
-		204D3520639A613718C7CDE55BF72F08 /* HeroTargetState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A236BFA5D2217A1CDDCE63603621DD2 /* HeroTargetState.swift */; };
-		2082EB4AA16440FFD5479FAFC0181066 /* Indicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4E3BBE877B5F4C9462638E30E87B0E2 /* Indicator.swift */; };
-		21662C64A371BDF77972D3EFD57A6252 /* KeyboardAvoiding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B533EE3A2D5E3B0D58883EC277BAA96 /* KeyboardAvoiding.swift */; };
-		25D582C7BC726A599A9617E36F915713 /* UIView+Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3218501221FDC34B9C153B59653B05A3 /* UIView+Hero.swift */; };
-		282E6F0E67F3799B0ABCB9ED96B666A9 /* RequestModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = C499A389547E39D44616D49AD6B6593D /* RequestModifier.swift */; };
-		2CF3B69D4CB67F5879FE1DB227C9AF64 /* Lexer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F3F92F2E230C74F113735194CE3B6E0 /* Lexer.swift */; };
-		2F288ED3641B2B4775884C462AE377E6 /* Kingfisher-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0446B7588DAA6F792E23F37EA371373B /* Kingfisher-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		352F03C98B59DB3789040D4B0D5C378A /* HeroTransition+CustomTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABCDA85666F61D6369D48C49E3BC86F2 /* HeroTransition+CustomTransition.swift */; };
+		1827E7D94F3A12CA0C58EF33AE4B026D /* KingfisherOptionsInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6121A23EB2760231C617A25758376D26 /* KingfisherOptionsInfo.swift */; };
+		1DAF3BB88351664576507F774FEB051C /* Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D282E906046BB13317AE63707638BB3 /* Filter.swift */; };
+		1FCC0970C8435F10768CA84C2025A177 /* Resource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485A52C6D33C29A30B8344AA9083167D /* Resource.swift */; };
+		204D3520639A613718C7CDE55BF72F08 /* HeroTargetState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B23D85766C50B40BF70538E73CA5B8C /* HeroTargetState.swift */; };
+		2082EB4AA16440FFD5479FAFC0181066 /* Indicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6F3DB8F6C8E011E1A604FA287562ECA /* Indicator.swift */; };
+		21662C64A371BDF77972D3EFD57A6252 /* KeyboardAvoiding.swift in Sources */ = {isa = PBXBuildFile; fileRef = B22701283F50C0005484D06C481047ED /* KeyboardAvoiding.swift */; };
+		25D582C7BC726A599A9617E36F915713 /* UIView+Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BB36BE32FD159E7F6298D9E76E86136 /* UIView+Hero.swift */; };
+		282E6F0E67F3799B0ABCB9ED96B666A9 /* RequestModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = C271342A70DCD586D3604465378FDB8A /* RequestModifier.swift */; };
+		2CF3B69D4CB67F5879FE1DB227C9AF64 /* Lexer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A84608B1A8100EB480B556435694F9A5 /* Lexer.swift */; };
+		2F288ED3641B2B4775884C462AE377E6 /* Kingfisher-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C81A8D21074E94C63F61CCF7061BD2DE /* Kingfisher-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		352F03C98B59DB3789040D4B0D5C378A /* HeroTransition+CustomTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB35EB3E247C940C6565424A96777BF1 /* HeroTransition+CustomTransition.swift */; };
 		36EE12CB455ACF1FD3C92E8DD64F78A9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDDF8D75AA654F65ACE2125C52AFAAD2 /* Foundation.framework */; };
-		37192B729206BAF40E1D706F618E1382 /* UIViewController+Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 645F8FE2ECC3E489EFD6C0798305C094 /* UIViewController+Hero.swift */; };
-		383C9A8DB84B83233633C3A00A2C1608 /* KingfisherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8095E54D9403B6B4886ECE7BD91F064 /* KingfisherManager.swift */; };
-		3AE3FF8B91E9532FF99910BF956B9EE4 /* HeroTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D1DC713AA404B78286A393A9D5BBF0 /* HeroTransition.swift */; };
-		3DD54CC124181B51D31CBD9B0F4168F7 /* HeroModifier+HeroStringConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DF70C81DB90B6E7BC6499BD1B509DCE /* HeroModifier+HeroStringConvertible.swift */; };
-		40765AAA791D6DFC0022639E348F0E6A /* FormatIndicatedCacheSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CCE711CC6199704113784F7D5126389 /* FormatIndicatedCacheSerializer.swift */; };
-		413C2A3759ABEC870AAE61F28C258C31 /* ImageDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC93A512B891620D04FF2C501F2F8BB /* ImageDownloader.swift */; };
-		4289A6BA490E261D4AFEBC4797706D6E /* IHKeyboardAvoiding-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F7E593F656B58B1F57C2795FE0D43CD /* IHKeyboardAvoiding-dummy.m */; };
-		48EC78A50C61424D4DFDC33A325CAA72 /* ThreadHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6966CACFB37CE84B2F3A7B86DAA7CBA /* ThreadHelper.swift */; };
-		49AE593D92F5CBE570CF41E38452EE5B /* Hero-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EF63A1EA6A1B119D84119CFB113C7473 /* Hero-dummy.m */; };
+		37192B729206BAF40E1D706F618E1382 /* UIViewController+Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BB5265102A9CAFC7FFE1937D3F9CF1C /* UIViewController+Hero.swift */; };
+		383C9A8DB84B83233633C3A00A2C1608 /* KingfisherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631CE6A55CB40C8E44410D3BBC95F3F7 /* KingfisherManager.swift */; };
+		3AE3FF8B91E9532FF99910BF956B9EE4 /* HeroTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A1084F8B80A4F8ECB7C475A2CD40E18 /* HeroTransition.swift */; };
+		3DD54CC124181B51D31CBD9B0F4168F7 /* HeroModifier+HeroStringConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2019D49C461A4D97A31174EE0062C0F3 /* HeroModifier+HeroStringConvertible.swift */; };
+		40765AAA791D6DFC0022639E348F0E6A /* FormatIndicatedCacheSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B0F060637FF6E71782EA3FB6A6BD06B /* FormatIndicatedCacheSerializer.swift */; };
+		413C2A3759ABEC870AAE61F28C258C31 /* ImageDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1591C1083AD8FE8CDF4310DC1A76AD54 /* ImageDownloader.swift */; };
+		4289A6BA490E261D4AFEBC4797706D6E /* IHKeyboardAvoiding-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F5D02F256A586EAD000D813E4450935 /* IHKeyboardAvoiding-dummy.m */; };
+		48EC78A50C61424D4DFDC33A325CAA72 /* ThreadHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F9D5CC63B42DECA8746F4D666188E9 /* ThreadHelper.swift */; };
+		49AE593D92F5CBE570CF41E38452EE5B /* Hero-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ED0E51C4D56A8AEF73EE4C142AD81F13 /* Hero-dummy.m */; };
 		52416A6AC7387ECACCC45596498D96AD /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BB22CD2AAE4F062A7CDA2E213C68442 /* CFNetwork.framework */; };
-		563D01EC84967B65555F62D8CBB3E345 /* HeroViewPropertyViewContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76F7967889794752C1961D66076944C /* HeroViewPropertyViewContext.swift */; };
-		56983408D1FF5A0551B0F06C72C448BD /* HeroTransition+UITabBarControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60DF18A7FEBFD3F347DB8EEEBB4BF3F8 /* HeroTransition+UITabBarControllerDelegate.swift */; };
-		5808A296321FB1C7BFDC15FCB88630B9 /* HeroTransition+Complete.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82FCD252AB878B0D9173864A63B9B531 /* HeroTransition+Complete.swift */; };
-		5B5D8AE167BD8E304CE474A9B8DBA2B4 /* Kingfisher.h in Headers */ = {isa = PBXBuildFile; fileRef = 4933EE2E8780F3D2DC686FB3D7D82703 /* Kingfisher.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5D83206A9A4656F11D511158EC8E0784 /* CacheSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 605D7734BA4296AEE4F2891D66318088 /* CacheSerializer.swift */; };
-		61B74C105955C9116ABD59E2863FD8D4 /* HeroProgressRunner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196837F5F29606CD4AF9D72694CC8AEB /* HeroProgressRunner.swift */; };
-		6222A7FA01B835E09AAA4FA306164B35 /* HeroTransition+UIViewControllerTransitioningDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4CD9C642DEA26A4270EB4CF27C4261 /* HeroTransition+UIViewControllerTransitioningDelegate.swift */; };
+		563D01EC84967B65555F62D8CBB3E345 /* HeroViewPropertyViewContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE66AFC72A2293D1B0EF4D8725810B0 /* HeroViewPropertyViewContext.swift */; };
+		56983408D1FF5A0551B0F06C72C448BD /* HeroTransition+UITabBarControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8697ECE841833F015087F98EBCF009 /* HeroTransition+UITabBarControllerDelegate.swift */; };
+		5808A296321FB1C7BFDC15FCB88630B9 /* HeroTransition+Complete.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC0D29115011011B3E40E0A72CC05C2 /* HeroTransition+Complete.swift */; };
+		5B5D8AE167BD8E304CE474A9B8DBA2B4 /* Kingfisher.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F9AC5BA14ECDA86D034C516B0005BF1 /* Kingfisher.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5D83206A9A4656F11D511158EC8E0784 /* CacheSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53CAF644CF8B538C639370070DDFD6AC /* CacheSerializer.swift */; };
+		61B74C105955C9116ABD59E2863FD8D4 /* HeroProgressRunner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44217E3950C86E45866F0BB4B02E997A /* HeroProgressRunner.swift */; };
+		6222A7FA01B835E09AAA4FA306164B35 /* HeroTransition+UIViewControllerTransitioningDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20D025C74F586873E7CEB6B6F42AE13A /* HeroTransition+UIViewControllerTransitioningDelegate.swift */; };
 		63E3E54D78ECF2A2C25FB5F202B96D40 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDDF8D75AA654F65ACE2125C52AFAAD2 /* Foundation.framework */; };
-		71161C45211D45B28515CB86A9E1802D /* HeroContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB25DC7A748836F09FB73DC5898F18CC /* HeroContext.swift */; };
-		747D046BF6CCD6B22DE448A319259F4E /* IgnoreSubviewModifiersPreprocessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13EDC4BCA30EF738638FEC3238299AE0 /* IgnoreSubviewModifiersPreprocessor.swift */; };
-		77B0A88DF25424192EB6B5BF4126595F /* CG+Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC0955AD95A0A6E99338E0CE5E4B635 /* CG+Hero.swift */; };
-		7C0F17488B3552EAAFC074CFC4491DD5 /* TegKeychainConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F229DFC8E62DF7BCB777FE8B2D36D8C2 /* TegKeychainConstants.swift */; };
-		7CED6E6CC35E080E1F94D9556FB54516 /* HeroTransition+Animate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C22E199EE84B162804737C03419214F /* HeroTransition+Animate.swift */; };
-		7E504CF40EDABF5AA222A875D9BC7ACA /* CascadePreprocessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AB1396F2C3CEAA808E8BFAC5CB2AB44 /* CascadePreprocessor.swift */; };
-		7E505B7D4AAC3DB7FD9939C6180BF6EC /* HeroPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = B378CF8438170108F6AA145855E0A2D0 /* HeroPlugin.swift */; };
-		873BA68C2E24D634D38E4A8BCB74B08D /* Kingfisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32DC75D8CF994397E52439AB9C2BCFF8 /* Kingfisher.swift */; };
-		88E51695CDC001BC4F639B2A593F18C7 /* Nodes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27480CB9E7F5AEB31AAA804C18A3C28E /* Nodes.swift */; };
-		8BC8035B9AB727C3410327F348C925A3 /* UIKit+Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965B4D1F2D208C7093079C245CF6CDA4 /* UIKit+Hero.swift */; };
+		71161C45211D45B28515CB86A9E1802D /* HeroContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8D20A236F2EFE2B99D9536B20FD7D6A /* HeroContext.swift */; };
+		747D046BF6CCD6B22DE448A319259F4E /* IgnoreSubviewModifiersPreprocessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89ADACD06532C642DE2D1670BC8E5EF3 /* IgnoreSubviewModifiersPreprocessor.swift */; };
+		77B0A88DF25424192EB6B5BF4126595F /* CG+Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01371FA8FC370746FDD1925852B3CBB9 /* CG+Hero.swift */; };
+		7C0F17488B3552EAAFC074CFC4491DD5 /* TegKeychainConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86DD36BD6BFDA65FF4E4E7763FEDCC49 /* TegKeychainConstants.swift */; };
+		7CED6E6CC35E080E1F94D9556FB54516 /* HeroTransition+Animate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0297B775706BA79F358D6882C0090264 /* HeroTransition+Animate.swift */; };
+		7E504CF40EDABF5AA222A875D9BC7ACA /* CascadePreprocessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EE8C82942992C6BCF3D2D0AADA9B47C /* CascadePreprocessor.swift */; };
+		7E505B7D4AAC3DB7FD9939C6180BF6EC /* HeroPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = C290E807C16A380A0E9F8273D49DB0A4 /* HeroPlugin.swift */; };
+		873BA68C2E24D634D38E4A8BCB74B08D /* Kingfisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61F746D3F34623D5A57C8688193783B6 /* Kingfisher.swift */; };
+		88E51695CDC001BC4F639B2A593F18C7 /* Nodes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76998FE5FEA786C4A00D43DB746EBD23 /* Nodes.swift */; };
+		8BC8035B9AB727C3410327F348C925A3 /* UIKit+Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78938126753BE59C497F9D1BBEECE23D /* UIKit+Hero.swift */; };
 		8C00251AAA4520F4F6A2DA0B33667A1B /* Pods-tripPlanner-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C5693B062CB782A0DD9818284C57CE0 /* Pods-tripPlanner-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8D7D42C25F9430F572E14200C399D57B /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1577B65EA9B844B4F8883A02D4573F53 /* ImageCache.swift */; };
-		93D444FC9D79520E14FB8EF178F0B76E /* ImageProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 624E648A7A0E388B3225A23AE225EBD9 /* ImageProcessor.swift */; };
-		950D8E334E011B13CC5786595E6AE615 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA82A92278B16F03680AE4C4977BCDA /* Image.swift */; };
-		97E12FCF1B28A57823ADD1E597654152 /* SourcePreprocessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E97355ACEFCEB280BF0CAF511E244A33 /* SourcePreprocessor.swift */; };
-		9903452D1A2F79036069ED51C4E815B9 /* HeroAnimatorViewContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA410BC7DF21704C6027FB62E6A5CBAB /* HeroAnimatorViewContext.swift */; };
+		8D7D42C25F9430F572E14200C399D57B /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = E01387E474B041E8171F271889181BE6 /* ImageCache.swift */; };
+		93D444FC9D79520E14FB8EF178F0B76E /* ImageProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5F0516BF33B0C0D1DCF487068B7C9D1 /* ImageProcessor.swift */; };
+		950D8E334E011B13CC5786595E6AE615 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2558772D021438A7F2DB0CAEE98064F /* Image.swift */; };
+		97E12FCF1B28A57823ADD1E597654152 /* SourcePreprocessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F19D5E39ECAC0E90A243E908DEA8ACE /* SourcePreprocessor.swift */; };
+		9903452D1A2F79036069ED51C4E815B9 /* HeroAnimatorViewContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35DDFD20D627920043106A0E6B4E1F16 /* HeroAnimatorViewContext.swift */; };
 		9B73F4359110CFB51CCD232C8CC10E31 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 321DA4FBF5721A7FB806D2982ED127C8 /* UIKit.framework */; };
-		9C2088FBF674C01D2BAF903FEF262A3C /* HeroDefaultAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F501FC90BC42457302D2D8506BF1D7EE /* HeroDefaultAnimator.swift */; };
-		A57F7AE8A5556A3D64F55C382D1DAAB0 /* Array+HeroModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6252FFC078374B7FBD26A1DFF09584 /* Array+HeroModifier.swift */; };
-		A795AE72B5EE8756ABF434D88933FC9B /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0748BC6B8CC4714D4CAE71A39471DFA5 /* Parser.swift */; };
-		A7EC09EC6EFAB3778E0A0341E7DC9CE3 /* AnimatedImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834436ABFA7678C2D2B60E3B57F1308C /* AnimatedImageView.swift */; };
-		A99B729B07E3C22CA75E3A9D1C177E80 /* DispatchQueue+Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B8EBB6A6250BE670CBDC47CDB303F83 /* DispatchQueue+Hero.swift */; };
-		AA8E9CFD62CDE580E7E1EC264551F38B /* HeroViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89FBFBACC93F85489B2D229BC2FE7B1E /* HeroViewControllerDelegate.swift */; };
-		AD0E8D5F58B0B824D2631BDA9D541DFE /* KeychainSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 802AFCBAA7CA43744F369BF77C323D0F /* KeychainSwift-dummy.m */; };
-		AF0A61424C9BF4646490D9BD1617E643 /* HeroTransition+Start.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6859B35C11A71769E5B4D05CC5D03B69 /* HeroTransition+Start.swift */; };
-		B0033530A0EAABBB31CD46CA2899F3BD /* Box.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC68C107EFA604F075D8AE60BD05DFDA /* Box.swift */; };
-		B9F5BBA79C9EBDBA4CE8C5A880CBE225 /* ConditionalPreprocessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C75BEF7898A81357B617F98CED0572E6 /* ConditionalPreprocessor.swift */; };
-		C642407E48D361352456FCFEBCC8ED42 /* HeroTransitionState.swift in Sources */ = {isa = PBXBuildFile; fileRef = A322C98A9EB565BCE11999F4DAC6C9D8 /* HeroTransitionState.swift */; };
-		C67899E2E59EB7BBD1D068A3026E9BED /* HeroTransition+Interactive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA5BC01432027B0CA04119D4C7AD2F7 /* HeroTransition+Interactive.swift */; };
-		C90E10351CD6B4E34F101420159DE668 /* KeyboardDismissingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2E2498D236AA60D5976729E8E87CCB /* KeyboardDismissingView.swift */; };
-		CB4222BC34D92C2E06A5BCF730FEFE71 /* Kingfisher-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 764E7022E2677F31EA34AE2BA9F0B640 /* Kingfisher-dummy.m */; };
-		CB8DF027448816C623E9B02A3685A59F /* ImageView+Kingfisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0990E840334264B2C274B770D1D16949 /* ImageView+Kingfisher.swift */; };
-		CCBE57237E9F0DBAAF02A5575244F3BE /* KeychainSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = B900F8ABE01378D4F9A6E74CC09667DA /* KeychainSwift.swift */; };
+		9C2088FBF674C01D2BAF903FEF262A3C /* HeroDefaultAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C683F284546C1DFA6D7993E8BB67C8 /* HeroDefaultAnimator.swift */; };
+		A57F7AE8A5556A3D64F55C382D1DAAB0 /* Array+HeroModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E1535F5691940D28F8CF5640D5905D /* Array+HeroModifier.swift */; };
+		A795AE72B5EE8756ABF434D88933FC9B /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9612853F7F828C353EB0C35487442910 /* Parser.swift */; };
+		A7EC09EC6EFAB3778E0A0341E7DC9CE3 /* AnimatedImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00270757F1DFA769938F2062F1B7FC2 /* AnimatedImageView.swift */; };
+		A99B729B07E3C22CA75E3A9D1C177E80 /* DispatchQueue+Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA60A4C64C41D17E41E16A15524A5D25 /* DispatchQueue+Hero.swift */; };
+		AA8E9CFD62CDE580E7E1EC264551F38B /* HeroViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B65101CAA598A5D762C456CB763D394 /* HeroViewControllerDelegate.swift */; };
+		AD0E8D5F58B0B824D2631BDA9D541DFE /* KeychainSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 913849A63F95931D18D74E6D37E0476D /* KeychainSwift-dummy.m */; };
+		AF0A61424C9BF4646490D9BD1617E643 /* HeroTransition+Start.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA75CC73785C113862CA92D3CA907A17 /* HeroTransition+Start.swift */; };
+		B0033530A0EAABBB31CD46CA2899F3BD /* Box.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D553A22DD162E979478E46DF52E84FC /* Box.swift */; };
+		B9F5BBA79C9EBDBA4CE8C5A880CBE225 /* ConditionalPreprocessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 089ABDAE48075BFCDA83172D916D8E79 /* ConditionalPreprocessor.swift */; };
+		C642407E48D361352456FCFEBCC8ED42 /* HeroTransitionState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EDE9C3743E579FEB16733550F328FC1 /* HeroTransitionState.swift */; };
+		C67899E2E59EB7BBD1D068A3026E9BED /* HeroTransition+Interactive.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BBD8E511396F041D0C1BA733D6F163 /* HeroTransition+Interactive.swift */; };
+		C90E10351CD6B4E34F101420159DE668 /* KeyboardDismissingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA113B15B308813FEA191F1714E52E2 /* KeyboardDismissingView.swift */; };
+		CB4222BC34D92C2E06A5BCF730FEFE71 /* Kingfisher-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DA588D6440481277009BD7D4458FCFC2 /* Kingfisher-dummy.m */; };
+		CB8DF027448816C623E9B02A3685A59F /* ImageView+Kingfisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1154AF0E666AA357A207255BE623BA9 /* ImageView+Kingfisher.swift */; };
+		CCBE57237E9F0DBAAF02A5575244F3BE /* KeychainSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B2F10550300A282B10C869E46603E3 /* KeychainSwift.swift */; };
 		CD9F1515DB2C0989AC9ED85D98673BD1 /* Pods-tripPlanner-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DE1E5F86212A07A346CB39E743947EE7 /* Pods-tripPlanner-dummy.m */; };
-		CF845EB085D70097F1EB8773318B0CF1 /* HeroDebugPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 779F176CB91B96F8CB5CEA18F3F34D95 /* HeroDebugPlugin.swift */; };
-		D6D047A2C02C9C8F7B6F021B524CF348 /* BasePreprocessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1D56E238F90F92FE5DB9DBFF1A9924A /* BasePreprocessor.swift */; };
-		D885B781E26415615CD22FE922BC1EE4 /* CALayer+Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75A69A742936408887E0A1A7AB83FCC /* CALayer+Hero.swift */; };
-		E1004C8A59E38E2FEF3005D26DD274EA /* HeroDebugView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F027E936B44F794159C10E1678B0D74A /* HeroDebugView.swift */; };
-		E710FF1F4EB4B125F9C5DBDFE3B9320F /* Placeholder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741ABAAE6C7E1492697148982EF6C2B0 /* Placeholder.swift */; };
-		EBA49F55F1E15D22FB191CD55127BC5E /* IHKeyboardAvoiding-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4992D120BD500407712EA31CDCF91E1E /* IHKeyboardAvoiding-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EBA8B955A11296BD7AA307752FE82ED4 /* KeychainSwiftAccessOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AB499D45A3E1B09AE0CF25D46F4A785 /* KeychainSwiftAccessOptions.swift */; };
-		EC8E0FBFF1C71C7DDE5D00C7F256E520 /* CAMediaTimingFunction+Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 557445E581BC47A59BA170C5A2CF435B /* CAMediaTimingFunction+Hero.swift */; };
-		ED1C6E8669DC14BA45A27357DF7CEF6A /* HeroModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 655F4A42CDBD6E9BCAC4A36F28FB0663 /* HeroModifier.swift */; };
-		EF7A5C637E0EBCDE614DB920809819B2 /* HeroStringConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54EC13DF10C4538FE88EC2FA22F21877 /* HeroStringConvertible.swift */; };
+		CF845EB085D70097F1EB8773318B0CF1 /* HeroDebugPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40E90135924541593FAD6D5F1AFDC9C /* HeroDebugPlugin.swift */; };
+		D6D047A2C02C9C8F7B6F021B524CF348 /* BasePreprocessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C69FBC81A9120A0998B6C8B655FCBA /* BasePreprocessor.swift */; };
+		D885B781E26415615CD22FE922BC1EE4 /* CALayer+Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09CEF85A157038882512E80D04961DA5 /* CALayer+Hero.swift */; };
+		E1004C8A59E38E2FEF3005D26DD274EA /* HeroDebugView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F3636E431769566F7F75832DA95FE40 /* HeroDebugView.swift */; };
+		E710FF1F4EB4B125F9C5DBDFE3B9320F /* Placeholder.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B5CB6AEB68C9DE9A620BD68EB83D31 /* Placeholder.swift */; };
+		EBA49F55F1E15D22FB191CD55127BC5E /* IHKeyboardAvoiding-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A93F488626AC8409DC239A3B5AF4310D /* IHKeyboardAvoiding-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EBA8B955A11296BD7AA307752FE82ED4 /* KeychainSwiftAccessOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A75FF504E901E371403812321F7A1D9 /* KeychainSwiftAccessOptions.swift */; };
+		EC8E0FBFF1C71C7DDE5D00C7F256E520 /* CAMediaTimingFunction+Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF358C15F20C3CB45676132EAB53394 /* CAMediaTimingFunction+Hero.swift */; };
+		ED1C6E8669DC14BA45A27357DF7CEF6A /* HeroModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA47D8B513BB08C75E86F630220D1344 /* HeroModifier.swift */; };
+		EF7A5C637E0EBCDE614DB920809819B2 /* HeroStringConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D8DEB4A2232F9CD1C5CDBD27486CE1 /* HeroStringConvertible.swift */; };
 		F05379774830E31F73F8D4E334BD9DE0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDDF8D75AA654F65ACE2125C52AFAAD2 /* Foundation.framework */; };
-		F2EB55C94CA30419C27C11BC2C2BD535 /* HeroTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6B3CAB00BEA974655F676DEABA5B654 /* HeroTypes.swift */; };
-		F99792883819ADBD16123F91F6A9F3F8 /* ImagePrefetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E7A74952532BA5EA8D872B0944FF209 /* ImagePrefetcher.swift */; };
-		FABCE800A63BF5574D9A7A04E81E2F03 /* DefaultAnimationPreprocessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9644A38A3494696B71CD5B3F79D1F243 /* DefaultAnimationPreprocessor.swift */; };
-		FAC3C67720C7E6EF51CCAE58F62645BC /* UIButton+Kingfisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59361F28AC044AE422C7B11C36F37CD6 /* UIButton+Kingfisher.swift */; };
+		F2EB55C94CA30419C27C11BC2C2BD535 /* HeroTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EC4D275A73BA7210F668D03A8BA60D4 /* HeroTypes.swift */; };
+		F99792883819ADBD16123F91F6A9F3F8 /* ImagePrefetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FE5EC20CE2C505EB8962EBBC34A6BC /* ImagePrefetcher.swift */; };
+		FABCE800A63BF5574D9A7A04E81E2F03 /* DefaultAnimationPreprocessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB1CB86D3D54CB6E34E4207D65913475 /* DefaultAnimationPreprocessor.swift */; };
+		FAC3C67720C7E6EF51CCAE58F62645BC /* UIButton+Kingfisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B012E85B227D8244323746E29D14260 /* UIButton+Kingfisher.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -131,121 +131,124 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0446B7588DAA6F792E23F37EA371373B /* Kingfisher-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Kingfisher-umbrella.h"; sourceTree = "<group>"; };
-		0748BC6B8CC4714D4CAE71A39471DFA5 /* Parser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Parser.swift; path = Sources/Parser/Parser.swift; sourceTree = "<group>"; };
-		08D1DC713AA404B78286A393A9D5BBF0 /* HeroTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroTransition.swift; path = Sources/Transition/HeroTransition.swift; sourceTree = "<group>"; };
-		0990E840334264B2C274B770D1D16949 /* ImageView+Kingfisher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ImageView+Kingfisher.swift"; path = "Sources/ImageView+Kingfisher.swift"; sourceTree = "<group>"; };
-		0C22E199EE84B162804737C03419214F /* HeroTransition+Animate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "HeroTransition+Animate.swift"; path = "Sources/Transition/HeroTransition+Animate.swift"; sourceTree = "<group>"; };
-		0DF70C81DB90B6E7BC6499BD1B509DCE /* HeroModifier+HeroStringConvertible.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "HeroModifier+HeroStringConvertible.swift"; path = "Sources/HeroModifier+HeroStringConvertible.swift"; sourceTree = "<group>"; };
-		0ED6A558F6E7B60B860554EDCE92AD95 /* Hero-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Hero-umbrella.h"; sourceTree = "<group>"; };
-		0F7E593F656B58B1F57C2795FE0D43CD /* IHKeyboardAvoiding-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "IHKeyboardAvoiding-dummy.m"; sourceTree = "<group>"; };
-		13EDC4BCA30EF738638FEC3238299AE0 /* IgnoreSubviewModifiersPreprocessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IgnoreSubviewModifiersPreprocessor.swift; path = Sources/Preprocessors/IgnoreSubviewModifiersPreprocessor.swift; sourceTree = "<group>"; };
-		1577B65EA9B844B4F8883A02D4573F53 /* ImageCache.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageCache.swift; path = Sources/ImageCache.swift; sourceTree = "<group>"; };
+		00492F977B6706E90512BC046D592439 /* String+MD5.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+MD5.swift"; path = "Sources/String+MD5.swift"; sourceTree = "<group>"; };
+		01371FA8FC370746FDD1925852B3CBB9 /* CG+Hero.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CG+Hero.swift"; path = "Sources/Extensions/CG+Hero.swift"; sourceTree = "<group>"; };
+		0297B775706BA79F358D6882C0090264 /* HeroTransition+Animate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "HeroTransition+Animate.swift"; path = "Sources/Transition/HeroTransition+Animate.swift"; sourceTree = "<group>"; };
+		05C69FBC81A9120A0998B6C8B655FCBA /* BasePreprocessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BasePreprocessor.swift; path = Sources/Preprocessors/BasePreprocessor.swift; sourceTree = "<group>"; };
+		089ABDAE48075BFCDA83172D916D8E79 /* ConditionalPreprocessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConditionalPreprocessor.swift; path = Sources/Preprocessors/ConditionalPreprocessor.swift; sourceTree = "<group>"; };
+		09CEF85A157038882512E80D04961DA5 /* CALayer+Hero.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CALayer+Hero.swift"; path = "Sources/Extensions/CALayer+Hero.swift"; sourceTree = "<group>"; };
+		0AF358C15F20C3CB45676132EAB53394 /* CAMediaTimingFunction+Hero.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CAMediaTimingFunction+Hero.swift"; path = "Sources/Extensions/CAMediaTimingFunction+Hero.swift"; sourceTree = "<group>"; };
+		0BB5265102A9CAFC7FFE1937D3F9CF1C /* UIViewController+Hero.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIViewController+Hero.swift"; path = "Sources/Extensions/UIViewController+Hero.swift"; sourceTree = "<group>"; };
+		0F19D5E39ECAC0E90A243E908DEA8ACE /* SourcePreprocessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SourcePreprocessor.swift; path = Sources/Preprocessors/SourcePreprocessor.swift; sourceTree = "<group>"; };
+		1591C1083AD8FE8CDF4310DC1A76AD54 /* ImageDownloader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageDownloader.swift; path = Sources/ImageDownloader.swift; sourceTree = "<group>"; };
 		182CB6C9687130178E3F34460B175FF2 /* KeychainSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KeychainSwift.framework; path = KeychainSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		196837F5F29606CD4AF9D72694CC8AEB /* HeroProgressRunner.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroProgressRunner.swift; path = Sources/Transition/HeroProgressRunner.swift; sourceTree = "<group>"; };
-		1AB1396F2C3CEAA808E8BFAC5CB2AB44 /* CascadePreprocessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CascadePreprocessor.swift; path = Sources/Preprocessors/CascadePreprocessor.swift; sourceTree = "<group>"; };
-		1B533EE3A2D5E3B0D58883EC277BAA96 /* KeyboardAvoiding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeyboardAvoiding.swift; path = Sources/KeyboardAvoiding.swift; sourceTree = "<group>"; };
+		18D8DEB4A2232F9CD1C5CDBD27486CE1 /* HeroStringConvertible.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroStringConvertible.swift; path = Sources/Parser/HeroStringConvertible.swift; sourceTree = "<group>"; };
+		196029C05589647402BE6933B2E66957 /* HeroCoreAnimationViewContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroCoreAnimationViewContext.swift; path = Sources/Animator/HeroCoreAnimationViewContext.swift; sourceTree = "<group>"; };
+		1B23D85766C50B40BF70538E73CA5B8C /* HeroTargetState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroTargetState.swift; path = Sources/HeroTargetState.swift; sourceTree = "<group>"; };
+		2019D49C461A4D97A31174EE0062C0F3 /* HeroModifier+HeroStringConvertible.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "HeroModifier+HeroStringConvertible.swift"; path = "Sources/HeroModifier+HeroStringConvertible.swift"; sourceTree = "<group>"; };
+		20D025C74F586873E7CEB6B6F42AE13A /* HeroTransition+UIViewControllerTransitioningDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "HeroTransition+UIViewControllerTransitioningDelegate.swift"; path = "Sources/Transition/HeroTransition+UIViewControllerTransitioningDelegate.swift"; sourceTree = "<group>"; };
 		23A080EB1C71D3A2082D9C1A7AA97266 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		27480CB9E7F5AEB31AAA804C18A3C28E /* Nodes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Nodes.swift; path = Sources/Parser/Nodes.swift; sourceTree = "<group>"; };
+		262054D54486469CB80E212AC9D5F7B4 /* IHKeyboardAvoiding-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IHKeyboardAvoiding-prefix.pch"; sourceTree = "<group>"; };
 		27E8EABF721D9BEF3A2D364CFBD7A371 /* Pods-tripPlanner-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-tripPlanner-acknowledgements.plist"; sourceTree = "<group>"; };
-		29EF2A9CCED5188DD92192FF71B7FEA5 /* IHKeyboardAvoiding.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = IHKeyboardAvoiding.modulemap; sourceTree = "<group>"; };
-		2BCF50970B224774F513207C47C03AC8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2CA5BC01432027B0CA04119D4C7AD2F7 /* HeroTransition+Interactive.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "HeroTransition+Interactive.swift"; path = "Sources/Transition/HeroTransition+Interactive.swift"; sourceTree = "<group>"; };
-		2D2E2498D236AA60D5976729E8E87CCB /* KeyboardDismissingView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeyboardDismissingView.swift; path = Sources/KeyboardDismissingView.swift; sourceTree = "<group>"; };
-		2E7A74952532BA5EA8D872B0944FF209 /* ImagePrefetcher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImagePrefetcher.swift; path = Sources/ImagePrefetcher.swift; sourceTree = "<group>"; };
-		3218501221FDC34B9C153B59653B05A3 /* UIView+Hero.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Hero.swift"; path = "Sources/Extensions/UIView+Hero.swift"; sourceTree = "<group>"; };
+		2B0F060637FF6E71782EA3FB6A6BD06B /* FormatIndicatedCacheSerializer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormatIndicatedCacheSerializer.swift; path = Sources/FormatIndicatedCacheSerializer.swift; sourceTree = "<group>"; };
+		2DFB64020ABE6350CFF93A2A35137F54 /* GooglePlaces.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GooglePlaces.framework; path = Frameworks/GooglePlaces.framework; sourceTree = "<group>"; };
+		2F5D02F256A586EAD000D813E4450935 /* IHKeyboardAvoiding-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "IHKeyboardAvoiding-dummy.m"; sourceTree = "<group>"; };
 		321DA4FBF5721A7FB806D2982ED127C8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		32DC75D8CF994397E52439AB9C2BCFF8 /* Kingfisher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Kingfisher.swift; path = Sources/Kingfisher.swift; sourceTree = "<group>"; };
-		3A236BFA5D2217A1CDDCE63603621DD2 /* HeroTargetState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroTargetState.swift; path = Sources/HeroTargetState.swift; sourceTree = "<group>"; };
+		34F9D5CC63B42DECA8746F4D666188E9 /* ThreadHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ThreadHelper.swift; path = Sources/ThreadHelper.swift; sourceTree = "<group>"; };
+		35DDFD20D627920043106A0E6B4E1F16 /* HeroAnimatorViewContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroAnimatorViewContext.swift; path = Sources/Animator/HeroAnimatorViewContext.swift; sourceTree = "<group>"; };
+		3B65101CAA598A5D762C456CB763D394 /* HeroViewControllerDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroViewControllerDelegate.swift; path = Sources/HeroViewControllerDelegate.swift; sourceTree = "<group>"; };
 		3C7757417730AF4EFDEFBDC4F4240FEB /* Kingfisher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Kingfisher.framework; path = Kingfisher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3EA3FEE1D1507F2B9EADCC3B5505992F /* ImageTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageTransition.swift; path = Sources/ImageTransition.swift; sourceTree = "<group>"; };
-		468838A24AE5E050954B202F90A7EF39 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4933EE2E8780F3D2DC686FB3D7D82703 /* Kingfisher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Kingfisher.h; path = Sources/Kingfisher.h; sourceTree = "<group>"; };
-		4992D120BD500407712EA31CDCF91E1E /* IHKeyboardAvoiding-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IHKeyboardAvoiding-umbrella.h"; sourceTree = "<group>"; };
-		4B6252FFC078374B7FBD26A1DFF09584 /* Array+HeroModifier.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Array+HeroModifier.swift"; path = "Sources/Extensions/Array+HeroModifier.swift"; sourceTree = "<group>"; };
-		4BA82A92278B16F03680AE4C4977BCDA /* Image.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Image.swift; path = Sources/Image.swift; sourceTree = "<group>"; };
-		4CCE711CC6199704113784F7D5126389 /* FormatIndicatedCacheSerializer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormatIndicatedCacheSerializer.swift; path = Sources/FormatIndicatedCacheSerializer.swift; sourceTree = "<group>"; };
-		4D4CD9C642DEA26A4270EB4CF27C4261 /* HeroTransition+UIViewControllerTransitioningDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "HeroTransition+UIViewControllerTransitioningDelegate.swift"; path = "Sources/Transition/HeroTransition+UIViewControllerTransitioningDelegate.swift"; sourceTree = "<group>"; };
-		4EA3536A870003A64E74EA4546F5CF67 /* IHKeyboardAvoiding-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IHKeyboardAvoiding-prefix.pch"; sourceTree = "<group>"; };
-		526AC20AFD256119E89218981DDEFAAB /* Resource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Resource.swift; path = Sources/Resource.swift; sourceTree = "<group>"; };
-		54EC13DF10C4538FE88EC2FA22F21877 /* HeroStringConvertible.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroStringConvertible.swift; path = Sources/Parser/HeroStringConvertible.swift; sourceTree = "<group>"; };
-		557445E581BC47A59BA170C5A2CF435B /* CAMediaTimingFunction+Hero.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CAMediaTimingFunction+Hero.swift"; path = "Sources/Extensions/CAMediaTimingFunction+Hero.swift"; sourceTree = "<group>"; };
-		59361F28AC044AE422C7B11C36F37CD6 /* UIButton+Kingfisher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIButton+Kingfisher.swift"; path = "Sources/UIButton+Kingfisher.swift"; sourceTree = "<group>"; };
-		5AB499D45A3E1B09AE0CF25D46F4A785 /* KeychainSwiftAccessOptions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeychainSwiftAccessOptions.swift; path = Sources/KeychainSwiftAccessOptions.swift; sourceTree = "<group>"; };
-		5BC0955AD95A0A6E99338E0CE5E4B635 /* CG+Hero.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CG+Hero.swift"; path = "Sources/Extensions/CG+Hero.swift"; sourceTree = "<group>"; };
-		5F2A8CE8AD6B1553F8118B526EA449AB /* KeychainSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KeychainSwift-prefix.pch"; sourceTree = "<group>"; };
-		5F3F92F2E230C74F113735194CE3B6E0 /* Lexer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Lexer.swift; path = Sources/Parser/Lexer.swift; sourceTree = "<group>"; };
-		5F4E372AF3693953F227DA620C79CE3B /* Hero.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Hero.xcconfig; sourceTree = "<group>"; };
-		605D7734BA4296AEE4F2891D66318088 /* CacheSerializer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CacheSerializer.swift; path = Sources/CacheSerializer.swift; sourceTree = "<group>"; };
-		60DF18A7FEBFD3F347DB8EEEBB4BF3F8 /* HeroTransition+UITabBarControllerDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "HeroTransition+UITabBarControllerDelegate.swift"; path = "Sources/Transition/HeroTransition+UITabBarControllerDelegate.swift"; sourceTree = "<group>"; };
-		624E648A7A0E388B3225A23AE225EBD9 /* ImageProcessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageProcessor.swift; path = Sources/ImageProcessor.swift; sourceTree = "<group>"; };
+		3EE8C82942992C6BCF3D2D0AADA9B47C /* CascadePreprocessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CascadePreprocessor.swift; path = Sources/Preprocessors/CascadePreprocessor.swift; sourceTree = "<group>"; };
+		44217E3950C86E45866F0BB4B02E997A /* HeroProgressRunner.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroProgressRunner.swift; path = Sources/Transition/HeroProgressRunner.swift; sourceTree = "<group>"; };
+		485A52C6D33C29A30B8344AA9083167D /* Resource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Resource.swift; path = Sources/Resource.swift; sourceTree = "<group>"; };
+		4A1084F8B80A4F8ECB7C475A2CD40E18 /* HeroTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroTransition.swift; path = Sources/Transition/HeroTransition.swift; sourceTree = "<group>"; };
+		4C6ED79BC52EC000C63E1F95E7458790 /* Kingfisher-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Kingfisher-prefix.pch"; sourceTree = "<group>"; };
+		4CA113B15B308813FEA191F1714E52E2 /* KeyboardDismissingView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeyboardDismissingView.swift; path = Sources/KeyboardDismissingView.swift; sourceTree = "<group>"; };
+		50274507A5CF2A76B53B091768B51518 /* Hero-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Hero-umbrella.h"; sourceTree = "<group>"; };
+		53CAF644CF8B538C639370070DDFD6AC /* CacheSerializer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CacheSerializer.swift; path = Sources/CacheSerializer.swift; sourceTree = "<group>"; };
+		544ACBF1C985C303EEB9D473B122F869 /* Kingfisher.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Kingfisher.xcconfig; sourceTree = "<group>"; };
+		58E9ED452401B87918419BC0D489A7EF /* Hero.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Hero.modulemap; sourceTree = "<group>"; };
+		5F40DD20C5EE7992BFB7C8BED9E90303 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F9AC5BA14ECDA86D034C516B0005BF1 /* Kingfisher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Kingfisher.h; path = Sources/Kingfisher.h; sourceTree = "<group>"; };
+		6121A23EB2760231C617A25758376D26 /* KingfisherOptionsInfo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KingfisherOptionsInfo.swift; path = Sources/KingfisherOptionsInfo.swift; sourceTree = "<group>"; };
+		61F746D3F34623D5A57C8688193783B6 /* Kingfisher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Kingfisher.swift; path = Sources/Kingfisher.swift; sourceTree = "<group>"; };
+		631CE6A55CB40C8E44410D3BBC95F3F7 /* KingfisherManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KingfisherManager.swift; path = Sources/KingfisherManager.swift; sourceTree = "<group>"; };
 		6424068F27B07F4F39F7397B6685E3BB /* Pods-tripPlanner-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-tripPlanner-resources.sh"; sourceTree = "<group>"; };
-		645F8FE2ECC3E489EFD6C0798305C094 /* UIViewController+Hero.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIViewController+Hero.swift"; path = "Sources/Extensions/UIViewController+Hero.swift"; sourceTree = "<group>"; };
-		655F4A42CDBD6E9BCAC4A36F28FB0663 /* HeroModifier.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroModifier.swift; path = Sources/HeroModifier.swift; sourceTree = "<group>"; };
-		6859B35C11A71769E5B4D05CC5D03B69 /* HeroTransition+Start.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "HeroTransition+Start.swift"; path = "Sources/Transition/HeroTransition+Start.swift"; sourceTree = "<group>"; };
+		64E1535F5691940D28F8CF5640D5905D /* Array+HeroModifier.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Array+HeroModifier.swift"; path = "Sources/Extensions/Array+HeroModifier.swift"; sourceTree = "<group>"; };
+		6A75FF504E901E371403812321F7A1D9 /* KeychainSwiftAccessOptions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeychainSwiftAccessOptions.swift; path = Sources/KeychainSwiftAccessOptions.swift; sourceTree = "<group>"; };
+		6B012E85B227D8244323746E29D14260 /* UIButton+Kingfisher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIButton+Kingfisher.swift"; path = "Sources/UIButton+Kingfisher.swift"; sourceTree = "<group>"; };
 		6BB22CD2AAE4F062A7CDA2E213C68442 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
-		6FDADD5D6C54DB6E1B1381E4DF68AB24 /* Kingfisher-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Kingfisher-prefix.pch"; sourceTree = "<group>"; };
-		741ABAAE6C7E1492697148982EF6C2B0 /* Placeholder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Placeholder.swift; path = Sources/Placeholder.swift; sourceTree = "<group>"; };
-		764E7022E2677F31EA34AE2BA9F0B640 /* Kingfisher-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Kingfisher-dummy.m"; sourceTree = "<group>"; };
-		779F176CB91B96F8CB5CEA18F3F34D95 /* HeroDebugPlugin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroDebugPlugin.swift; path = "Sources/Debug Plugin/HeroDebugPlugin.swift"; sourceTree = "<group>"; };
-		77F6A636DDD66CEDC502501F4D4719BF /* String+MD5.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+MD5.swift"; path = "Sources/String+MD5.swift"; sourceTree = "<group>"; };
-		7AC93A512B891620D04FF2C501F2F8BB /* ImageDownloader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageDownloader.swift; path = Sources/ImageDownloader.swift; sourceTree = "<group>"; };
-		7ACE12A47B224398A6DA99C89D20C69A /* IHKeyboardAvoiding.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IHKeyboardAvoiding.xcconfig; sourceTree = "<group>"; };
-		802AFCBAA7CA43744F369BF77C323D0F /* KeychainSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KeychainSwift-dummy.m"; sourceTree = "<group>"; };
-		82FCD252AB878B0D9173864A63B9B531 /* HeroTransition+Complete.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "HeroTransition+Complete.swift"; path = "Sources/Transition/HeroTransition+Complete.swift"; sourceTree = "<group>"; };
-		834436ABFA7678C2D2B60E3B57F1308C /* AnimatedImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimatedImageView.swift; path = Sources/AnimatedImageView.swift; sourceTree = "<group>"; };
-		89FBFBACC93F85489B2D229BC2FE7B1E /* HeroViewControllerDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroViewControllerDelegate.swift; path = Sources/HeroViewControllerDelegate.swift; sourceTree = "<group>"; };
-		8C4E153A0F6DE7EE78B1F78E852686FE /* KeychainSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = KeychainSwift.modulemap; sourceTree = "<group>"; };
-		8D5538C1F8450122F37BAF42CFDC1CC3 /* Kingfisher.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Kingfisher.xcconfig; sourceTree = "<group>"; };
+		6BB36BE32FD159E7F6298D9E76E86136 /* UIView+Hero.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Hero.swift"; path = "Sources/Extensions/UIView+Hero.swift"; sourceTree = "<group>"; };
+		6FB9BE1F438B9248BA45D780560931BF /* KeychainSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KeychainSwift-prefix.pch"; sourceTree = "<group>"; };
+		70ED2DE39C522852993031A71FF11405 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7354DB0641D3A7B761D6972B88CC3943 /* Hero.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Hero.xcconfig; sourceTree = "<group>"; };
+		76998FE5FEA786C4A00D43DB746EBD23 /* Nodes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Nodes.swift; path = Sources/Parser/Nodes.swift; sourceTree = "<group>"; };
+		78938126753BE59C497F9D1BBEECE23D /* UIKit+Hero.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIKit+Hero.swift"; path = "Sources/Extensions/UIKit+Hero.swift"; sourceTree = "<group>"; };
+		7D75731720A9B1C1C4CEC904BCFD9815 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7EC4D275A73BA7210F668D03A8BA60D4 /* HeroTypes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroTypes.swift; path = Sources/HeroTypes.swift; sourceTree = "<group>"; };
+		7F3636E431769566F7F75832DA95FE40 /* HeroDebugView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroDebugView.swift; path = "Sources/Debug Plugin/HeroDebugView.swift"; sourceTree = "<group>"; };
+		86DD36BD6BFDA65FF4E4E7763FEDCC49 /* TegKeychainConstants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TegKeychainConstants.swift; path = Sources/TegKeychainConstants.swift; sourceTree = "<group>"; };
+		89ADACD06532C642DE2D1670BC8E5EF3 /* IgnoreSubviewModifiersPreprocessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IgnoreSubviewModifiersPreprocessor.swift; path = Sources/Preprocessors/IgnoreSubviewModifiersPreprocessor.swift; sourceTree = "<group>"; };
+		8D553A22DD162E979478E46DF52E84FC /* Box.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Box.swift; path = Sources/Box.swift; sourceTree = "<group>"; };
 		8E42C7F87B8175981C7DBBC1F66E7BAC /* IHKeyboardAvoiding.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = IHKeyboardAvoiding.framework; path = IHKeyboardAvoiding.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E9D85F115756369F34DC09B91C91E7C /* GooglePlaces.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GooglePlaces.bundle; path = Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle; sourceTree = "<group>"; };
+		913849A63F95931D18D74E6D37E0476D /* KeychainSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KeychainSwift-dummy.m"; sourceTree = "<group>"; };
+		91EEE13BFA8A637B66974F3408491F91 /* KeychainSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KeychainSwift-umbrella.h"; sourceTree = "<group>"; };
+		91FE5EC20CE2C505EB8962EBBC34A6BC /* ImagePrefetcher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImagePrefetcher.swift; path = Sources/ImagePrefetcher.swift; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9644A38A3494696B71CD5B3F79D1F243 /* DefaultAnimationPreprocessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DefaultAnimationPreprocessor.swift; path = Sources/Preprocessors/DefaultAnimationPreprocessor.swift; sourceTree = "<group>"; };
-		965B4D1F2D208C7093079C245CF6CDA4 /* UIKit+Hero.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIKit+Hero.swift"; path = "Sources/Extensions/UIKit+Hero.swift"; sourceTree = "<group>"; };
-		98BD27F587C452BB523F047AD21D3B3C /* Regex.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Regex.swift; path = Sources/Parser/Regex.swift; sourceTree = "<group>"; };
-		9B8EBB6A6250BE670CBDC47CDB303F83 /* DispatchQueue+Hero.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Hero.swift"; path = "Sources/Extensions/DispatchQueue+Hero.swift"; sourceTree = "<group>"; };
+		9612853F7F828C353EB0C35487442910 /* Parser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Parser.swift; path = Sources/Parser/Parser.swift; sourceTree = "<group>"; };
+		9A8697ECE841833F015087F98EBCF009 /* HeroTransition+UITabBarControllerDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "HeroTransition+UITabBarControllerDelegate.swift"; path = "Sources/Transition/HeroTransition+UITabBarControllerDelegate.swift"; sourceTree = "<group>"; };
 		9C5693B062CB782A0DD9818284C57CE0 /* Pods-tripPlanner-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-tripPlanner-umbrella.h"; sourceTree = "<group>"; };
+		9D282E906046BB13317AE63707638BB3 /* Filter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Filter.swift; path = Sources/Filter.swift; sourceTree = "<group>"; };
 		9E3157C9DF631DFB51D9C16A9141ACD0 /* Pods-tripPlanner.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-tripPlanner.modulemap"; sourceTree = "<group>"; };
-		9E910A7CE6368D0AB030A6DC40A4FA64 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A322C98A9EB565BCE11999F4DAC6C9D8 /* HeroTransitionState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroTransitionState.swift; path = Sources/Transition/HeroTransitionState.swift; sourceTree = "<group>"; };
+		9EDE9C3743E579FEB16733550F328FC1 /* HeroTransitionState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroTransitionState.swift; path = Sources/Transition/HeroTransitionState.swift; sourceTree = "<group>"; };
+		A0B1CE011065A1AF175ADC2DC576429E /* IHKeyboardAvoiding.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = IHKeyboardAvoiding.modulemap; sourceTree = "<group>"; };
+		A4469B49BCB03110837B69C0B2539D02 /* Regex.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Regex.swift; path = Sources/Parser/Regex.swift; sourceTree = "<group>"; };
+		A5B91727964CFEF745CD22502DE46241 /* KeychainSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = KeychainSwift.modulemap; sourceTree = "<group>"; };
+		A6C8420DF8F47C975A2B9217F9581A9E /* IHKeyboardAvoiding.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IHKeyboardAvoiding.xcconfig; sourceTree = "<group>"; };
+		A84608B1A8100EB480B556435694F9A5 /* Lexer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Lexer.swift; path = Sources/Parser/Lexer.swift; sourceTree = "<group>"; };
 		A875B3E9C28BE3B58EE38A35BFF1A862 /* Pods-tripPlanner-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-tripPlanner-acknowledgements.markdown"; sourceTree = "<group>"; };
-		AA410BC7DF21704C6027FB62E6A5CBAB /* HeroAnimatorViewContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroAnimatorViewContext.swift; path = Sources/Animator/HeroAnimatorViewContext.swift; sourceTree = "<group>"; };
-		ABCDA85666F61D6369D48C49E3BC86F2 /* HeroTransition+CustomTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "HeroTransition+CustomTransition.swift"; path = "Sources/Transition/HeroTransition+CustomTransition.swift"; sourceTree = "<group>"; };
-		AC17EAB635049D84D20BC1E5209C057C /* HeroCoreAnimationViewContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroCoreAnimationViewContext.swift; path = Sources/Animator/HeroCoreAnimationViewContext.swift; sourceTree = "<group>"; };
-		B378CF8438170108F6AA145855E0A2D0 /* HeroPlugin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroPlugin.swift; path = Sources/HeroPlugin.swift; sourceTree = "<group>"; };
-		B4E3BBE877B5F4C9462638E30E87B0E2 /* Indicator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Indicator.swift; path = Sources/Indicator.swift; sourceTree = "<group>"; };
-		B76F7967889794752C1961D66076944C /* HeroViewPropertyViewContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroViewPropertyViewContext.swift; path = Sources/Animator/HeroViewPropertyViewContext.swift; sourceTree = "<group>"; };
-		B900F8ABE01378D4F9A6E74CC09667DA /* KeychainSwift.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeychainSwift.swift; path = Sources/KeychainSwift.swift; sourceTree = "<group>"; };
-		BACAA7F6850F51CBE4A34ECDB6142CCC /* Kingfisher.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Kingfisher.modulemap; sourceTree = "<group>"; };
-		BC68C107EFA604F075D8AE60BD05DFDA /* Box.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Box.swift; path = Sources/Box.swift; sourceTree = "<group>"; };
-		C26FFA0AE440BEAAF59E7D97456A0B62 /* Filter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Filter.swift; path = Sources/Filter.swift; sourceTree = "<group>"; };
-		C499A389547E39D44616D49AD6B6593D /* RequestModifier.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestModifier.swift; path = Sources/RequestModifier.swift; sourceTree = "<group>"; };
-		C6966CACFB37CE84B2F3A7B86DAA7CBA /* ThreadHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ThreadHelper.swift; path = Sources/ThreadHelper.swift; sourceTree = "<group>"; };
-		C75BEF7898A81357B617F98CED0572E6 /* ConditionalPreprocessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConditionalPreprocessor.swift; path = Sources/Preprocessors/ConditionalPreprocessor.swift; sourceTree = "<group>"; };
-		CC08F9B6BF3884BDE1E9D84B8D0187BF /* KeychainSwift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KeychainSwift.xcconfig; sourceTree = "<group>"; };
-		CC2DA3404E11870911657BDED14EE383 /* Hero.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Hero.modulemap; sourceTree = "<group>"; };
-		CDDE54BA2B802B89CAD3D02CA48B342B /* KingfisherOptionsInfo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KingfisherOptionsInfo.swift; path = Sources/KingfisherOptionsInfo.swift; sourceTree = "<group>"; };
-		D0421232DACBB9C5E48889532AD377E4 /* KeychainSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KeychainSwift-umbrella.h"; sourceTree = "<group>"; };
-		D1D56E238F90F92FE5DB9DBFF1A9924A /* BasePreprocessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BasePreprocessor.swift; path = Sources/Preprocessors/BasePreprocessor.swift; sourceTree = "<group>"; };
-		D3690AE764EC72C833B9A06B1503D97E /* HeroTransition+UINavigationControllerDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "HeroTransition+UINavigationControllerDelegate.swift"; path = "Sources/Transition/HeroTransition+UINavigationControllerDelegate.swift"; sourceTree = "<group>"; };
-		DB25DC7A748836F09FB73DC5898F18CC /* HeroContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroContext.swift; path = Sources/HeroContext.swift; sourceTree = "<group>"; };
+		A93F488626AC8409DC239A3B5AF4310D /* IHKeyboardAvoiding-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IHKeyboardAvoiding-umbrella.h"; sourceTree = "<group>"; };
+		AA47D8B513BB08C75E86F630220D1344 /* HeroModifier.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroModifier.swift; path = Sources/HeroModifier.swift; sourceTree = "<group>"; };
+		B031CBAB6548484C9E6578566A73106D /* GoogleMapsBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsBase.framework; path = Base/Frameworks/GoogleMapsBase.framework; sourceTree = "<group>"; };
+		B22701283F50C0005484D06C481047ED /* KeyboardAvoiding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeyboardAvoiding.swift; path = Sources/KeyboardAvoiding.swift; sourceTree = "<group>"; };
+		B5C1E4488061988250BBA75B30601DBA /* Kingfisher.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Kingfisher.modulemap; sourceTree = "<group>"; };
+		B6F3DB8F6C8E011E1A604FA287562ECA /* Indicator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Indicator.swift; path = Sources/Indicator.swift; sourceTree = "<group>"; };
+		B7733C89C2A849F2B3FF4CECC5782C89 /* MatchPreprocessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MatchPreprocessor.swift; path = Sources/Preprocessors/MatchPreprocessor.swift; sourceTree = "<group>"; };
+		B8B2F10550300A282B10C869E46603E3 /* KeychainSwift.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeychainSwift.swift; path = Sources/KeychainSwift.swift; sourceTree = "<group>"; };
+		BB1CB86D3D54CB6E34E4207D65913475 /* DefaultAnimationPreprocessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DefaultAnimationPreprocessor.swift; path = Sources/Preprocessors/DefaultAnimationPreprocessor.swift; sourceTree = "<group>"; };
+		BB2ACF31BC9A54D17D323CA6DBF67551 /* ImageTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageTransition.swift; path = Sources/ImageTransition.swift; sourceTree = "<group>"; };
+		C271342A70DCD586D3604465378FDB8A /* RequestModifier.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestModifier.swift; path = Sources/RequestModifier.swift; sourceTree = "<group>"; };
+		C290E807C16A380A0E9F8273D49DB0A4 /* HeroPlugin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroPlugin.swift; path = Sources/HeroPlugin.swift; sourceTree = "<group>"; };
+		C6A2F9EA130FF5D4306834CC76EBCAC5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C81A8D21074E94C63F61CCF7061BD2DE /* Kingfisher-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Kingfisher-umbrella.h"; sourceTree = "<group>"; };
+		C8D20A236F2EFE2B99D9536B20FD7D6A /* HeroContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroContext.swift; path = Sources/HeroContext.swift; sourceTree = "<group>"; };
+		CA60A4C64C41D17E41E16A15524A5D25 /* DispatchQueue+Hero.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Hero.swift"; path = "Sources/Extensions/DispatchQueue+Hero.swift"; sourceTree = "<group>"; };
+		CF33DE338869D83617FB85DBC53BA139 /* KeychainSwift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KeychainSwift.xcconfig; sourceTree = "<group>"; };
+		D4B5CB6AEB68C9DE9A620BD68EB83D31 /* Placeholder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Placeholder.swift; path = Sources/Placeholder.swift; sourceTree = "<group>"; };
+		D5C683F284546C1DFA6D7993E8BB67C8 /* HeroDefaultAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroDefaultAnimator.swift; path = Sources/Animator/HeroDefaultAnimator.swift; sourceTree = "<group>"; };
+		DA588D6440481277009BD7D4458FCFC2 /* Kingfisher-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Kingfisher-dummy.m"; sourceTree = "<group>"; };
+		DB403EED2C9425D41A27B0B850B84B42 /* HeroTransition+UINavigationControllerDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "HeroTransition+UINavigationControllerDelegate.swift"; path = "Sources/Transition/HeroTransition+UINavigationControllerDelegate.swift"; sourceTree = "<group>"; };
 		DBC171B9C154318838E3002869265D25 /* Pods_tripPlanner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_tripPlanner.framework; path = "Pods-tripPlanner.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBE66AFC72A2293D1B0EF4D8725810B0 /* HeroViewPropertyViewContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroViewPropertyViewContext.swift; path = Sources/Animator/HeroViewPropertyViewContext.swift; sourceTree = "<group>"; };
 		DE1E5F86212A07A346CB39E743947EE7 /* Pods-tripPlanner-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-tripPlanner-dummy.m"; sourceTree = "<group>"; };
 		DF2988045B320401532772DEF58A7833 /* Pods-tripPlanner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-tripPlanner.release.xcconfig"; sourceTree = "<group>"; };
+		E01387E474B041E8171F271889181BE6 /* ImageCache.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageCache.swift; path = Sources/ImageCache.swift; sourceTree = "<group>"; };
+		E1154AF0E666AA357A207255BE623BA9 /* ImageView+Kingfisher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ImageView+Kingfisher.swift"; path = "Sources/ImageView+Kingfisher.swift"; sourceTree = "<group>"; };
+		E1BBD8E511396F041D0C1BA733D6F163 /* HeroTransition+Interactive.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "HeroTransition+Interactive.swift"; path = "Sources/Transition/HeroTransition+Interactive.swift"; sourceTree = "<group>"; };
+		E40E90135924541593FAD6D5F1AFDC9C /* HeroDebugPlugin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroDebugPlugin.swift; path = "Sources/Debug Plugin/HeroDebugPlugin.swift"; sourceTree = "<group>"; };
 		E7AC45753D8C6784D3CE7B1A84D41CCB /* Pods-tripPlanner-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-tripPlanner-frameworks.sh"; sourceTree = "<group>"; };
-		E8095E54D9403B6B4886ECE7BD91F064 /* KingfisherManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KingfisherManager.swift; path = Sources/KingfisherManager.swift; sourceTree = "<group>"; };
-		E97355ACEFCEB280BF0CAF511E244A33 /* SourcePreprocessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SourcePreprocessor.swift; path = Sources/Preprocessors/SourcePreprocessor.swift; sourceTree = "<group>"; };
-		E9CB21327DEC0E91FABF499FBD9DAB83 /* MatchPreprocessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MatchPreprocessor.swift; path = Sources/Preprocessors/MatchPreprocessor.swift; sourceTree = "<group>"; };
 		E9CC999D4BD0001AA79679F400DC3106 /* Pods-tripPlanner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-tripPlanner.debug.xcconfig"; sourceTree = "<group>"; };
+		EB35EB3E247C940C6565424A96777BF1 /* HeroTransition+CustomTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "HeroTransition+CustomTransition.swift"; path = "Sources/Transition/HeroTransition+CustomTransition.swift"; sourceTree = "<group>"; };
+		ED0E51C4D56A8AEF73EE4C142AD81F13 /* Hero-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Hero-dummy.m"; sourceTree = "<group>"; };
 		EDDF8D75AA654F65ACE2125C52AFAAD2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		EF63A1EA6A1B119D84119CFB113C7473 /* Hero-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Hero-dummy.m"; sourceTree = "<group>"; };
-		F027E936B44F794159C10E1678B0D74A /* HeroDebugView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroDebugView.swift; path = "Sources/Debug Plugin/HeroDebugView.swift"; sourceTree = "<group>"; };
-		F229DFC8E62DF7BCB777FE8B2D36D8C2 /* TegKeychainConstants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TegKeychainConstants.swift; path = Sources/TegKeychainConstants.swift; sourceTree = "<group>"; };
-		F501FC90BC42457302D2D8506BF1D7EE /* HeroDefaultAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroDefaultAnimator.swift; path = Sources/Animator/HeroDefaultAnimator.swift; sourceTree = "<group>"; };
+		EED8D7673CFB39CEB3937C73F97C2E22 /* Hero-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Hero-prefix.pch"; sourceTree = "<group>"; };
+		F00270757F1DFA769938F2062F1B7FC2 /* AnimatedImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimatedImageView.swift; path = Sources/AnimatedImageView.swift; sourceTree = "<group>"; };
+		F2558772D021438A7F2DB0CAEE98064F /* Image.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Image.swift; path = Sources/Image.swift; sourceTree = "<group>"; };
+		F5F0516BF33B0C0D1DCF487068B7C9D1 /* ImageProcessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageProcessor.swift; path = Sources/ImageProcessor.swift; sourceTree = "<group>"; };
 		F6327CB2A3DA588EE0A8EB20C423AB3B /* Hero.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Hero.framework; path = Hero.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F6B3CAB00BEA974655F676DEABA5B654 /* HeroTypes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroTypes.swift; path = Sources/HeroTypes.swift; sourceTree = "<group>"; };
-		F75A69A742936408887E0A1A7AB83FCC /* CALayer+Hero.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CALayer+Hero.swift"; path = "Sources/Extensions/CALayer+Hero.swift"; sourceTree = "<group>"; };
-		F97581E43D89650557B03ADF06C76E60 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FD1396DCF6223F598A82EFABDB92CBCB /* Hero-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Hero-prefix.pch"; sourceTree = "<group>"; };
+		FA75CC73785C113862CA92D3CA907A17 /* HeroTransition+Start.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "HeroTransition+Start.swift"; path = "Sources/Transition/HeroTransition+Start.swift"; sourceTree = "<group>"; };
+		FBC0D29115011011B3E40E0A72CC05C2 /* HeroTransition+Complete.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "HeroTransition+Complete.swift"; path = "Sources/Transition/HeroTransition+Complete.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -295,15 +298,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0F641786E8A9DC136036B7A9DA71109B /* Pods */ = {
+		0B9B00FAB308FF7845AB62ACA7D6C5E4 /* KeychainSwift */ = {
 			isa = PBXGroup;
 			children = (
-				D776F28A370E84E99A6DF238E708B0C4 /* Hero */,
-				FBE089DB3D1A9995D2EB227A04CB7CA0 /* IHKeyboardAvoiding */,
-				675D860B153BEFCA353A11969FC961E3 /* KeychainSwift */,
-				1C604B1C530379DB57787D10B4D2AA95 /* Kingfisher */,
+				B8B2F10550300A282B10C869E46603E3 /* KeychainSwift.swift */,
+				6A75FF504E901E371403812321F7A1D9 /* KeychainSwiftAccessOptions.swift */,
+				86DD36BD6BFDA65FF4E4E7763FEDCC49 /* TegKeychainConstants.swift */,
+				9AAA61008EE0308DAA6A1C25460416BF /* Support Files */,
 			);
-			name = Pods;
+			name = KeychainSwift;
+			path = KeychainSwift;
 			sourceTree = "<group>";
 		};
 		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
@@ -326,64 +330,43 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		17C9576609ABBC08984547B91A33226E /* Support Files */ = {
+		13C8641C9A9E47A721C94037312097F1 /* Base */ = {
 			isa = PBXGroup;
 			children = (
-				2BCF50970B224774F513207C47C03AC8 /* Info.plist */,
-				BACAA7F6850F51CBE4A34ECDB6142CCC /* Kingfisher.modulemap */,
-				8D5538C1F8450122F37BAF42CFDC1CC3 /* Kingfisher.xcconfig */,
-				764E7022E2677F31EA34AE2BA9F0B640 /* Kingfisher-dummy.m */,
-				6FDADD5D6C54DB6E1B1381E4DF68AB24 /* Kingfisher-prefix.pch */,
-				0446B7588DAA6F792E23F37EA371373B /* Kingfisher-umbrella.h */,
+				E59A7742E1A3E27CA26223262B1F592C /* Frameworks */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		1504B9B77B98EAA5F8581CF2BBA34FB3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2DFB64020ABE6350CFF93A2A35137F54 /* GooglePlaces.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2CAE2A841FFD1C34D46BAE62EEA000C4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7D75731720A9B1C1C4CEC904BCFD9815 /* Info.plist */,
+				B5C1E4488061988250BBA75B30601DBA /* Kingfisher.modulemap */,
+				544ACBF1C985C303EEB9D473B122F869 /* Kingfisher.xcconfig */,
+				DA588D6440481277009BD7D4458FCFC2 /* Kingfisher-dummy.m */,
+				4C6ED79BC52EC000C63E1F95E7458790 /* Kingfisher-prefix.pch */,
+				C81A8D21074E94C63F61CCF7061BD2DE /* Kingfisher-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/Kingfisher";
 			sourceTree = "<group>";
 		};
-		1C604B1C530379DB57787D10B4D2AA95 /* Kingfisher */ = {
+		32ECFF2AC74A14D9C10EFF030D27D7A3 /* GoogleMaps */ = {
 			isa = PBXGroup;
 			children = (
-				834436ABFA7678C2D2B60E3B57F1308C /* AnimatedImageView.swift */,
-				BC68C107EFA604F075D8AE60BD05DFDA /* Box.swift */,
-				605D7734BA4296AEE4F2891D66318088 /* CacheSerializer.swift */,
-				C26FFA0AE440BEAAF59E7D97456A0B62 /* Filter.swift */,
-				4CCE711CC6199704113784F7D5126389 /* FormatIndicatedCacheSerializer.swift */,
-				4BA82A92278B16F03680AE4C4977BCDA /* Image.swift */,
-				1577B65EA9B844B4F8883A02D4573F53 /* ImageCache.swift */,
-				7AC93A512B891620D04FF2C501F2F8BB /* ImageDownloader.swift */,
-				2E7A74952532BA5EA8D872B0944FF209 /* ImagePrefetcher.swift */,
-				624E648A7A0E388B3225A23AE225EBD9 /* ImageProcessor.swift */,
-				3EA3FEE1D1507F2B9EADCC3B5505992F /* ImageTransition.swift */,
-				0990E840334264B2C274B770D1D16949 /* ImageView+Kingfisher.swift */,
-				B4E3BBE877B5F4C9462638E30E87B0E2 /* Indicator.swift */,
-				4933EE2E8780F3D2DC686FB3D7D82703 /* Kingfisher.h */,
-				32DC75D8CF994397E52439AB9C2BCFF8 /* Kingfisher.swift */,
-				E8095E54D9403B6B4886ECE7BD91F064 /* KingfisherManager.swift */,
-				CDDE54BA2B802B89CAD3D02CA48B342B /* KingfisherOptionsInfo.swift */,
-				741ABAAE6C7E1492697148982EF6C2B0 /* Placeholder.swift */,
-				C499A389547E39D44616D49AD6B6593D /* RequestModifier.swift */,
-				526AC20AFD256119E89218981DDEFAAB /* Resource.swift */,
-				77F6A636DDD66CEDC502501F4D4719BF /* String+MD5.swift */,
-				C6966CACFB37CE84B2F3A7B86DAA7CBA /* ThreadHelper.swift */,
-				59361F28AC044AE422C7B11C36F37CD6 /* UIButton+Kingfisher.swift */,
-				17C9576609ABBC08984547B91A33226E /* Support Files */,
+				13C8641C9A9E47A721C94037312097F1 /* Base */,
 			);
-			name = Kingfisher;
-			path = Kingfisher;
-			sourceTree = "<group>";
-		};
-		327EBFE0964FA040D7DB741A92AD93A6 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				9E910A7CE6368D0AB030A6DC40A4FA64 /* Info.plist */,
-				8C4E153A0F6DE7EE78B1F78E852686FE /* KeychainSwift.modulemap */,
-				CC08F9B6BF3884BDE1E9D84B8D0187BF /* KeychainSwift.xcconfig */,
-				802AFCBAA7CA43744F369BF77C323D0F /* KeychainSwift-dummy.m */,
-				5F2A8CE8AD6B1553F8118B526EA449AB /* KeychainSwift-prefix.pch */,
-				D0421232DACBB9C5E48889532AD377E4 /* KeychainSwift-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/KeychainSwift";
+			name = GoogleMaps;
+			path = GoogleMaps;
 			sourceTree = "<group>";
 		};
 		41C8A025B237EA0ECAF66A66BE0A2DC9 /* Pods-tripPlanner */ = {
@@ -404,30 +387,54 @@
 			path = "Target Support Files/Pods-tripPlanner";
 			sourceTree = "<group>";
 		};
-		675D860B153BEFCA353A11969FC961E3 /* KeychainSwift */ = {
+		4D4070D3EDB9BBDA644A764A146FF28F /* GooglePlaces */ = {
 			isa = PBXGroup;
 			children = (
-				B900F8ABE01378D4F9A6E74CC09667DA /* KeychainSwift.swift */,
-				5AB499D45A3E1B09AE0CF25D46F4A785 /* KeychainSwiftAccessOptions.swift */,
-				F229DFC8E62DF7BCB777FE8B2D36D8C2 /* TegKeychainConstants.swift */,
-				327EBFE0964FA040D7DB741A92AD93A6 /* Support Files */,
+				1504B9B77B98EAA5F8581CF2BBA34FB3 /* Frameworks */,
+				6FD90280E934176B4663A23A975D1B77 /* Resources */,
 			);
-			name = KeychainSwift;
-			path = KeychainSwift;
+			name = GooglePlaces;
+			path = GooglePlaces;
 			sourceTree = "<group>";
 		};
-		7D44E0D07FC1A2BD1AD9167EFAD694FA /* Support Files */ = {
+		506BE50F6EB6AB5D247E39A37B4E0459 /* Kingfisher */ = {
 			isa = PBXGroup;
 			children = (
-				29EF2A9CCED5188DD92192FF71B7FEA5 /* IHKeyboardAvoiding.modulemap */,
-				7ACE12A47B224398A6DA99C89D20C69A /* IHKeyboardAvoiding.xcconfig */,
-				0F7E593F656B58B1F57C2795FE0D43CD /* IHKeyboardAvoiding-dummy.m */,
-				4EA3536A870003A64E74EA4546F5CF67 /* IHKeyboardAvoiding-prefix.pch */,
-				4992D120BD500407712EA31CDCF91E1E /* IHKeyboardAvoiding-umbrella.h */,
-				468838A24AE5E050954B202F90A7EF39 /* Info.plist */,
+				F00270757F1DFA769938F2062F1B7FC2 /* AnimatedImageView.swift */,
+				8D553A22DD162E979478E46DF52E84FC /* Box.swift */,
+				53CAF644CF8B538C639370070DDFD6AC /* CacheSerializer.swift */,
+				9D282E906046BB13317AE63707638BB3 /* Filter.swift */,
+				2B0F060637FF6E71782EA3FB6A6BD06B /* FormatIndicatedCacheSerializer.swift */,
+				F2558772D021438A7F2DB0CAEE98064F /* Image.swift */,
+				E01387E474B041E8171F271889181BE6 /* ImageCache.swift */,
+				1591C1083AD8FE8CDF4310DC1A76AD54 /* ImageDownloader.swift */,
+				91FE5EC20CE2C505EB8962EBBC34A6BC /* ImagePrefetcher.swift */,
+				F5F0516BF33B0C0D1DCF487068B7C9D1 /* ImageProcessor.swift */,
+				BB2ACF31BC9A54D17D323CA6DBF67551 /* ImageTransition.swift */,
+				E1154AF0E666AA357A207255BE623BA9 /* ImageView+Kingfisher.swift */,
+				B6F3DB8F6C8E011E1A604FA287562ECA /* Indicator.swift */,
+				5F9AC5BA14ECDA86D034C516B0005BF1 /* Kingfisher.h */,
+				61F746D3F34623D5A57C8688193783B6 /* Kingfisher.swift */,
+				631CE6A55CB40C8E44410D3BBC95F3F7 /* KingfisherManager.swift */,
+				6121A23EB2760231C617A25758376D26 /* KingfisherOptionsInfo.swift */,
+				D4B5CB6AEB68C9DE9A620BD68EB83D31 /* Placeholder.swift */,
+				C271342A70DCD586D3604465378FDB8A /* RequestModifier.swift */,
+				485A52C6D33C29A30B8344AA9083167D /* Resource.swift */,
+				00492F977B6706E90512BC046D592439 /* String+MD5.swift */,
+				34F9D5CC63B42DECA8746F4D666188E9 /* ThreadHelper.swift */,
+				6B012E85B227D8244323746E29D14260 /* UIButton+Kingfisher.swift */,
+				2CAE2A841FFD1C34D46BAE62EEA000C4 /* Support Files */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/IHKeyboardAvoiding";
+			name = Kingfisher;
+			path = Kingfisher;
+			sourceTree = "<group>";
+		};
+		6FD90280E934176B4663A23A975D1B77 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8E9D85F115756369F34DC09B91C91E7C /* GooglePlaces.bundle */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -435,24 +442,10 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
-				0F641786E8A9DC136036B7A9DA71109B /* Pods */,
+				D2A467FA880D0591E651ACDA3A508ED1 /* Pods */,
 				1248A404A9D0A25DDFDBD5D6EAAF2459 /* Products */,
 				9450EF86F946D0CDE948E99C8E9E9E3E /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		8A09C922A4463E9A8B4D0CD741E04B69 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				CC2DA3404E11870911657BDED14EE383 /* Hero.modulemap */,
-				5F4E372AF3693953F227DA620C79CE3B /* Hero.xcconfig */,
-				EF63A1EA6A1B119D84119CFB113C7473 /* Hero-dummy.m */,
-				FD1396DCF6223F598A82EFABDB92CBCB /* Hero-prefix.pch */,
-				0ED6A558F6E7B60B860554EDCE92AD95 /* Hero-umbrella.h */,
-				F97581E43D89650557B03ADF06C76E60 /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/Hero";
 			sourceTree = "<group>";
 		};
 		9450EF86F946D0CDE948E99C8E9E9E3E /* Targets Support Files */ = {
@@ -461,6 +454,44 @@
 				41C8A025B237EA0ECAF66A66BE0A2DC9 /* Pods-tripPlanner */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		9AAA61008EE0308DAA6A1C25460416BF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				70ED2DE39C522852993031A71FF11405 /* Info.plist */,
+				A5B91727964CFEF745CD22502DE46241 /* KeychainSwift.modulemap */,
+				CF33DE338869D83617FB85DBC53BA139 /* KeychainSwift.xcconfig */,
+				913849A63F95931D18D74E6D37E0476D /* KeychainSwift-dummy.m */,
+				6FB9BE1F438B9248BA45D780560931BF /* KeychainSwift-prefix.pch */,
+				91EEE13BFA8A637B66974F3408491F91 /* KeychainSwift-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/KeychainSwift";
+			sourceTree = "<group>";
+		};
+		B5A777D1C50577D25CC1A7ABD8BF6BD8 /* IHKeyboardAvoiding */ = {
+			isa = PBXGroup;
+			children = (
+				B22701283F50C0005484D06C481047ED /* KeyboardAvoiding.swift */,
+				4CA113B15B308813FEA191F1714E52E2 /* KeyboardDismissingView.swift */,
+				FFBE332602E5CCDF5C7CE42FC790625A /* Support Files */,
+			);
+			name = IHKeyboardAvoiding;
+			path = IHKeyboardAvoiding;
+			sourceTree = "<group>";
+		};
+		D2A467FA880D0591E651ACDA3A508ED1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				32ECFF2AC74A14D9C10EFF030D27D7A3 /* GoogleMaps */,
+				4D4070D3EDB9BBDA644A764A146FF28F /* GooglePlaces */,
+				DC22DB3C84AAC0036704E011B99F5E7A /* Hero */,
+				B5A777D1C50577D25CC1A7ABD8BF6BD8 /* IHKeyboardAvoiding */,
+				0B9B00FAB308FF7845AB62ACA7D6C5E4 /* KeychainSwift */,
+				506BE50F6EB6AB5D247E39A37B4E0459 /* Kingfisher */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		D3DC5782D19BF047DFAEB491A596E0F0 /* iOS */ = {
@@ -473,68 +504,93 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		D776F28A370E84E99A6DF238E708B0C4 /* Hero */ = {
+		DC22DB3C84AAC0036704E011B99F5E7A /* Hero */ = {
 			isa = PBXGroup;
 			children = (
-				4B6252FFC078374B7FBD26A1DFF09584 /* Array+HeroModifier.swift */,
-				D1D56E238F90F92FE5DB9DBFF1A9924A /* BasePreprocessor.swift */,
-				F75A69A742936408887E0A1A7AB83FCC /* CALayer+Hero.swift */,
-				557445E581BC47A59BA170C5A2CF435B /* CAMediaTimingFunction+Hero.swift */,
-				1AB1396F2C3CEAA808E8BFAC5CB2AB44 /* CascadePreprocessor.swift */,
-				5BC0955AD95A0A6E99338E0CE5E4B635 /* CG+Hero.swift */,
-				C75BEF7898A81357B617F98CED0572E6 /* ConditionalPreprocessor.swift */,
-				9644A38A3494696B71CD5B3F79D1F243 /* DefaultAnimationPreprocessor.swift */,
-				9B8EBB6A6250BE670CBDC47CDB303F83 /* DispatchQueue+Hero.swift */,
-				AA410BC7DF21704C6027FB62E6A5CBAB /* HeroAnimatorViewContext.swift */,
-				DB25DC7A748836F09FB73DC5898F18CC /* HeroContext.swift */,
-				AC17EAB635049D84D20BC1E5209C057C /* HeroCoreAnimationViewContext.swift */,
-				779F176CB91B96F8CB5CEA18F3F34D95 /* HeroDebugPlugin.swift */,
-				F027E936B44F794159C10E1678B0D74A /* HeroDebugView.swift */,
-				F501FC90BC42457302D2D8506BF1D7EE /* HeroDefaultAnimator.swift */,
-				655F4A42CDBD6E9BCAC4A36F28FB0663 /* HeroModifier.swift */,
-				0DF70C81DB90B6E7BC6499BD1B509DCE /* HeroModifier+HeroStringConvertible.swift */,
-				B378CF8438170108F6AA145855E0A2D0 /* HeroPlugin.swift */,
-				196837F5F29606CD4AF9D72694CC8AEB /* HeroProgressRunner.swift */,
-				54EC13DF10C4538FE88EC2FA22F21877 /* HeroStringConvertible.swift */,
-				3A236BFA5D2217A1CDDCE63603621DD2 /* HeroTargetState.swift */,
-				08D1DC713AA404B78286A393A9D5BBF0 /* HeroTransition.swift */,
-				0C22E199EE84B162804737C03419214F /* HeroTransition+Animate.swift */,
-				82FCD252AB878B0D9173864A63B9B531 /* HeroTransition+Complete.swift */,
-				ABCDA85666F61D6369D48C49E3BC86F2 /* HeroTransition+CustomTransition.swift */,
-				2CA5BC01432027B0CA04119D4C7AD2F7 /* HeroTransition+Interactive.swift */,
-				6859B35C11A71769E5B4D05CC5D03B69 /* HeroTransition+Start.swift */,
-				D3690AE764EC72C833B9A06B1503D97E /* HeroTransition+UINavigationControllerDelegate.swift */,
-				60DF18A7FEBFD3F347DB8EEEBB4BF3F8 /* HeroTransition+UITabBarControllerDelegate.swift */,
-				4D4CD9C642DEA26A4270EB4CF27C4261 /* HeroTransition+UIViewControllerTransitioningDelegate.swift */,
-				A322C98A9EB565BCE11999F4DAC6C9D8 /* HeroTransitionState.swift */,
-				F6B3CAB00BEA974655F676DEABA5B654 /* HeroTypes.swift */,
-				89FBFBACC93F85489B2D229BC2FE7B1E /* HeroViewControllerDelegate.swift */,
-				B76F7967889794752C1961D66076944C /* HeroViewPropertyViewContext.swift */,
-				13EDC4BCA30EF738638FEC3238299AE0 /* IgnoreSubviewModifiersPreprocessor.swift */,
-				5F3F92F2E230C74F113735194CE3B6E0 /* Lexer.swift */,
-				E9CB21327DEC0E91FABF499FBD9DAB83 /* MatchPreprocessor.swift */,
-				27480CB9E7F5AEB31AAA804C18A3C28E /* Nodes.swift */,
-				0748BC6B8CC4714D4CAE71A39471DFA5 /* Parser.swift */,
-				98BD27F587C452BB523F047AD21D3B3C /* Regex.swift */,
-				E97355ACEFCEB280BF0CAF511E244A33 /* SourcePreprocessor.swift */,
-				965B4D1F2D208C7093079C245CF6CDA4 /* UIKit+Hero.swift */,
-				3218501221FDC34B9C153B59653B05A3 /* UIView+Hero.swift */,
-				645F8FE2ECC3E489EFD6C0798305C094 /* UIViewController+Hero.swift */,
-				8A09C922A4463E9A8B4D0CD741E04B69 /* Support Files */,
+				64E1535F5691940D28F8CF5640D5905D /* Array+HeroModifier.swift */,
+				05C69FBC81A9120A0998B6C8B655FCBA /* BasePreprocessor.swift */,
+				09CEF85A157038882512E80D04961DA5 /* CALayer+Hero.swift */,
+				0AF358C15F20C3CB45676132EAB53394 /* CAMediaTimingFunction+Hero.swift */,
+				3EE8C82942992C6BCF3D2D0AADA9B47C /* CascadePreprocessor.swift */,
+				01371FA8FC370746FDD1925852B3CBB9 /* CG+Hero.swift */,
+				089ABDAE48075BFCDA83172D916D8E79 /* ConditionalPreprocessor.swift */,
+				BB1CB86D3D54CB6E34E4207D65913475 /* DefaultAnimationPreprocessor.swift */,
+				CA60A4C64C41D17E41E16A15524A5D25 /* DispatchQueue+Hero.swift */,
+				35DDFD20D627920043106A0E6B4E1F16 /* HeroAnimatorViewContext.swift */,
+				C8D20A236F2EFE2B99D9536B20FD7D6A /* HeroContext.swift */,
+				196029C05589647402BE6933B2E66957 /* HeroCoreAnimationViewContext.swift */,
+				E40E90135924541593FAD6D5F1AFDC9C /* HeroDebugPlugin.swift */,
+				7F3636E431769566F7F75832DA95FE40 /* HeroDebugView.swift */,
+				D5C683F284546C1DFA6D7993E8BB67C8 /* HeroDefaultAnimator.swift */,
+				AA47D8B513BB08C75E86F630220D1344 /* HeroModifier.swift */,
+				2019D49C461A4D97A31174EE0062C0F3 /* HeroModifier+HeroStringConvertible.swift */,
+				C290E807C16A380A0E9F8273D49DB0A4 /* HeroPlugin.swift */,
+				44217E3950C86E45866F0BB4B02E997A /* HeroProgressRunner.swift */,
+				18D8DEB4A2232F9CD1C5CDBD27486CE1 /* HeroStringConvertible.swift */,
+				1B23D85766C50B40BF70538E73CA5B8C /* HeroTargetState.swift */,
+				4A1084F8B80A4F8ECB7C475A2CD40E18 /* HeroTransition.swift */,
+				0297B775706BA79F358D6882C0090264 /* HeroTransition+Animate.swift */,
+				FBC0D29115011011B3E40E0A72CC05C2 /* HeroTransition+Complete.swift */,
+				EB35EB3E247C940C6565424A96777BF1 /* HeroTransition+CustomTransition.swift */,
+				E1BBD8E511396F041D0C1BA733D6F163 /* HeroTransition+Interactive.swift */,
+				FA75CC73785C113862CA92D3CA907A17 /* HeroTransition+Start.swift */,
+				DB403EED2C9425D41A27B0B850B84B42 /* HeroTransition+UINavigationControllerDelegate.swift */,
+				9A8697ECE841833F015087F98EBCF009 /* HeroTransition+UITabBarControllerDelegate.swift */,
+				20D025C74F586873E7CEB6B6F42AE13A /* HeroTransition+UIViewControllerTransitioningDelegate.swift */,
+				9EDE9C3743E579FEB16733550F328FC1 /* HeroTransitionState.swift */,
+				7EC4D275A73BA7210F668D03A8BA60D4 /* HeroTypes.swift */,
+				3B65101CAA598A5D762C456CB763D394 /* HeroViewControllerDelegate.swift */,
+				DBE66AFC72A2293D1B0EF4D8725810B0 /* HeroViewPropertyViewContext.swift */,
+				89ADACD06532C642DE2D1670BC8E5EF3 /* IgnoreSubviewModifiersPreprocessor.swift */,
+				A84608B1A8100EB480B556435694F9A5 /* Lexer.swift */,
+				B7733C89C2A849F2B3FF4CECC5782C89 /* MatchPreprocessor.swift */,
+				76998FE5FEA786C4A00D43DB746EBD23 /* Nodes.swift */,
+				9612853F7F828C353EB0C35487442910 /* Parser.swift */,
+				A4469B49BCB03110837B69C0B2539D02 /* Regex.swift */,
+				0F19D5E39ECAC0E90A243E908DEA8ACE /* SourcePreprocessor.swift */,
+				78938126753BE59C497F9D1BBEECE23D /* UIKit+Hero.swift */,
+				6BB36BE32FD159E7F6298D9E76E86136 /* UIView+Hero.swift */,
+				0BB5265102A9CAFC7FFE1937D3F9CF1C /* UIViewController+Hero.swift */,
+				DCB341234AFE924B09D4E55FF8BE2720 /* Support Files */,
 			);
 			name = Hero;
 			path = Hero;
 			sourceTree = "<group>";
 		};
-		FBE089DB3D1A9995D2EB227A04CB7CA0 /* IHKeyboardAvoiding */ = {
+		DCB341234AFE924B09D4E55FF8BE2720 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				1B533EE3A2D5E3B0D58883EC277BAA96 /* KeyboardAvoiding.swift */,
-				2D2E2498D236AA60D5976729E8E87CCB /* KeyboardDismissingView.swift */,
-				7D44E0D07FC1A2BD1AD9167EFAD694FA /* Support Files */,
+				58E9ED452401B87918419BC0D489A7EF /* Hero.modulemap */,
+				7354DB0641D3A7B761D6972B88CC3943 /* Hero.xcconfig */,
+				ED0E51C4D56A8AEF73EE4C142AD81F13 /* Hero-dummy.m */,
+				EED8D7673CFB39CEB3937C73F97C2E22 /* Hero-prefix.pch */,
+				50274507A5CF2A76B53B091768B51518 /* Hero-umbrella.h */,
+				5F40DD20C5EE7992BFB7C8BED9E90303 /* Info.plist */,
 			);
-			name = IHKeyboardAvoiding;
-			path = IHKeyboardAvoiding;
+			name = "Support Files";
+			path = "../Target Support Files/Hero";
+			sourceTree = "<group>";
+		};
+		E59A7742E1A3E27CA26223262B1F592C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B031CBAB6548484C9E6578566A73106D /* GoogleMapsBase.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FFBE332602E5CCDF5C7CE42FC790625A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A0B1CE011065A1AF175ADC2DC576429E /* IHKeyboardAvoiding.modulemap */,
+				A6C8420DF8F47C975A2B9217F9581A9E /* IHKeyboardAvoiding.xcconfig */,
+				2F5D02F256A586EAD000D813E4450935 /* IHKeyboardAvoiding-dummy.m */,
+				262054D54486469CB80E212AC9D5F7B4 /* IHKeyboardAvoiding-prefix.pch */,
+				A93F488626AC8409DC239A3B5AF4310D /* IHKeyboardAvoiding-umbrella.h */,
+				C6A2F9EA130FF5D4306834CC76EBCAC5 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/IHKeyboardAvoiding";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -847,7 +903,7 @@
 /* Begin XCBuildConfiguration section */
 		1BF162ECB23784C0E7C5C62CA7011FF2 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CC08F9B6BF3884BDE1E9D84B8D0187BF /* KeychainSwift.xcconfig */;
+			baseConfigurationReference = CF33DE338869D83617FB85DBC53BA139 /* KeychainSwift.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -878,7 +934,7 @@
 		};
 		23362006C41D20C1FC15FA28A2F992E1 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7ACE12A47B224398A6DA99C89D20C69A /* IHKeyboardAvoiding.xcconfig */;
+			baseConfigurationReference = A6C8420DF8F47C975A2B9217F9581A9E /* IHKeyboardAvoiding.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -909,7 +965,7 @@
 		};
 		2511EE2FF6B2A27D44E80BFB5C439F57 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CC08F9B6BF3884BDE1E9D84B8D0187BF /* KeychainSwift.xcconfig */;
+			baseConfigurationReference = CF33DE338869D83617FB85DBC53BA139 /* KeychainSwift.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -975,7 +1031,7 @@
 		};
 		576C583E88A92DC2279EB3BFC2CA8A6C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8D5538C1F8450122F37BAF42CFDC1CC3 /* Kingfisher.xcconfig */;
+			baseConfigurationReference = 544ACBF1C985C303EEB9D473B122F869 /* Kingfisher.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1040,7 +1096,7 @@
 		};
 		8C7DBBE02DCDBBC4FA8941119B2371CE /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5F4E372AF3693953F227DA620C79CE3B /* Hero.xcconfig */;
+			baseConfigurationReference = 7354DB0641D3A7B761D6972B88CC3943 /* Hero.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1071,7 +1127,7 @@
 		};
 		AAA7B40D1CFCAD02D2C29943BB0B2C0A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5F4E372AF3693953F227DA620C79CE3B /* Hero.xcconfig */;
+			baseConfigurationReference = 7354DB0641D3A7B761D6972B88CC3943 /* Hero.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1218,7 +1274,7 @@
 		};
 		E8652F35BF322A3957D0F62338910B79 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8D5538C1F8450122F37BAF42CFDC1CC3 /* Kingfisher.xcconfig */;
+			baseConfigurationReference = 544ACBF1C985C303EEB9D473B122F869 /* Kingfisher.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1250,7 +1306,7 @@
 		};
 		EF4DA808CFAC03F5F6C792D8C0674F28 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7ACE12A47B224398A6DA99C89D20C69A /* IHKeyboardAvoiding.xcconfig */;
+			baseConfigurationReference = A6C8420DF8F47C975A2B9217F9581A9E /* IHKeyboardAvoiding.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";

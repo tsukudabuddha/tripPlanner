@@ -11,6 +11,6 @@ target 'tripPlanner' do
   pod 'Hero'
   pod 'KeychainSwift', '~> 10.0'
   pod 'IHKeyboardAvoiding'
+  pod 'GooglePlaces'
 
 end
-
