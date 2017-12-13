@@ -45,9 +45,9 @@ class TripsViewController: UIViewController, UITableViewDataSource {
         if sender.state == .began || sender.state == .changed {
             let translation = sender.translation(in: self.view).x * 0.1
             
-            if translation > 0 { // Swipe Right
+            if translation > 5 { // Swipe Right with enough force
                 showMenu()
-            } else {
+            } else if translation < -5 { // Swipe Left with enough force
                 hideMenu()
             }
         
@@ -134,7 +134,6 @@ class TripsViewController: UIViewController, UITableViewDataSource {
         
         cell.placesLabel.text = "\(trips[indexPath.row].landmarks.count) places"
         cell.destinationLabel.text = trips[indexPath.row].destinationCity
-//        tableView.separatorStyle = .none // Remove white lines between cells
         
         if trips[indexPath.row].destinationCity.trimmingCharacters(in: .whitespaces).isEmpty {
             cell.destinationLabel.text = trips[indexPath.row].destinationCountry
@@ -157,8 +156,6 @@ class TripsViewController: UIViewController, UITableViewDataSource {
             return 250
         }
     }
-    
-
     /*
     // MARK: - Navigation
 

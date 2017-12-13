@@ -54,7 +54,6 @@ class SignUpViewController: UIViewController, UIImagePickerControllerDelegate, U
                         alert.addAction(UIAlertAction(title: "Ok", style: .default, handler: { (action) in
                             /* Transition to Trips screen  */
                             DispatchQueue.main.async {
-                                //                                self.performSegue(withIdentifier: "signUpToTrips", sender: self)
                                 let window = UIApplication.shared.delegate!.window!
                                 
                                 window?.rootViewController = UIStoryboard(
@@ -84,22 +83,6 @@ class SignUpViewController: UIViewController, UIImagePickerControllerDelegate, U
         }
         
         
-    }
-    
-    @objc func keyboardWillShow(notification: NSNotification) {
-        if let keyboardSize = (notification.userInfo?[UIKeyboardFrameBeginUserInfoKey] as? NSValue)?.cgRectValue {
-            if self.view.frame.origin.y == 0{
-                self.view.frame.origin.y -= keyboardSize.height
-            }
-        }
-    }
-    
-    @objc func keyboardWillHide(notification: NSNotification) {
-        if let keyboardSize = (notification.userInfo?[UIKeyboardFrameBeginUserInfoKey] as? NSValue)?.cgRectValue {
-            if self.view.frame.origin.y != 0{
-                self.view.frame.origin.y += keyboardSize.height
-            }
-        }
     }
 
     @IBAction func setProfileImage(_ sender: Any) {
