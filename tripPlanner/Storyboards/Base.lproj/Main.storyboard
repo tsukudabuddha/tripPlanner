@@ -188,7 +188,7 @@
         <!--Navigation Controller-->
         <scene sceneID="5GY-Oh-GLf">
             <objects>
-                <navigationController storyboardIdentifier="tripsNavigationController" automaticallyAdjustsScrollViewInsets="NO" hidesBarsOnSwipe="YES" id="naL-63-V1S" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="tripsNavigationController" automaticallyAdjustsScrollViewInsets="NO" id="naL-63-V1S" sceneMemberID="viewController">
                     <extendedEdge key="edgesForExtendedLayout" bottom="YES"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="WcS-99-Pqx">
