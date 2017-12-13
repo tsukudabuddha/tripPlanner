@@ -106,6 +106,7 @@ class TripsViewController: UIViewController, UITableViewDataSource {
             network.getTrips(resource: .trips, username: username, password: password) { (trips) in
                 self.trips = trips
                 DispatchQueue.main.async {
+                    self.navigationController?.navigationBar.isHidden = false
                     sender.endRefreshing()
                 }
             }

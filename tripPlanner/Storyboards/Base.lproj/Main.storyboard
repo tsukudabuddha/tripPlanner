@@ -168,6 +168,9 @@
                         </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="TcD-Oc-XPK">
                             <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <segue destination="0K4-aQ-dKy" kind="show" id="CEH-fp-roN"/>
+                            </connections>
                         </barButtonItem>
                     </navigationItem>
                     <connections>
@@ -185,10 +188,66 @@
             </objects>
             <point key="canvasLocation" x="-389.85507246376812" y="2153.804347826087"/>
         </scene>
+        <!--Add Trip-->
+        <scene sceneID="aqM-nb-wTJ">
+            <objects>
+                <viewController title="Add Trip" id="0K4-aQ-dKy" customClass="AddTripViewController" customModule="tripPlanner" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="bsh-5X-fud">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" image="DestinationBG" translatesAutoresizingMaskIntoConstraints="NO" id="4fd-qm-A3v">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="nWL-89-vQz" appends="YES" id="Ojo-oe-xit"/>
+                                </connections>
+                            </imageView>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="Where would you love to travel?" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="88L-D7-kRJ">
+                                <rect key="frame" x="20" y="293" width="374" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="xNY-Ee-XVT"/>
+                                </constraints>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" image="searchIcon" translatesAutoresizingMaskIntoConstraints="NO" id="eO3-f9-K4j">
+                                <rect key="frame" x="40" y="308" width="21" height="20"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="BfA-ZX-c9D" firstAttribute="bottom" secondItem="4fd-qm-A3v" secondAttribute="bottom" id="8hV-ol-VlJ"/>
+                            <constraint firstItem="BfA-ZX-c9D" firstAttribute="trailing" secondItem="4fd-qm-A3v" secondAttribute="trailing" id="QNd-vi-3wY"/>
+                            <constraint firstItem="4fd-qm-A3v" firstAttribute="top" secondItem="bsh-5X-fud" secondAttribute="top" id="c5X-0H-3Iq"/>
+                            <constraint firstItem="eO3-f9-K4j" firstAttribute="leading" secondItem="88L-D7-kRJ" secondAttribute="leading" constant="20" id="dYe-H3-AJc"/>
+                            <constraint firstItem="88L-D7-kRJ" firstAttribute="bottom" secondItem="4fd-qm-A3v" secondAttribute="bottom" constant="-393" id="i18-6Q-zEd"/>
+                            <constraint firstItem="88L-D7-kRJ" firstAttribute="leading" secondItem="BfA-ZX-c9D" secondAttribute="leading" constant="20" id="itE-IR-D54"/>
+                            <constraint firstItem="eO3-f9-K4j" firstAttribute="centerY" secondItem="88L-D7-kRJ" secondAttribute="centerY" id="nJB-EH-QFy"/>
+                            <constraint firstItem="4fd-qm-A3v" firstAttribute="leading" secondItem="BfA-ZX-c9D" secondAttribute="leading" id="zTn-cO-nrq"/>
+                            <constraint firstItem="BfA-ZX-c9D" firstAttribute="trailing" secondItem="88L-D7-kRJ" secondAttribute="trailing" constant="20" id="zZu-3P-ppu"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="BfA-ZX-c9D"/>
+                    </view>
+                    <connections>
+                        <outlet property="searchTextField" destination="88L-D7-kRJ" id="9FV-ao-jbw"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Y17-CW-oap" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <screenEdgePanGestureRecognizer minimumNumberOfTouches="1" id="nWL-89-vQz">
+                    <rectEdge key="edges" left="YES"/>
+                    <connections>
+                        <action selector="panGestureRecognizer:" destination="0K4-aQ-dKy" id="k30-a1-M17"/>
+                    </connections>
+                </screenEdgePanGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="508.69565217391306" y="2153.804347826087"/>
+        </scene>
         <!--Navigation Controller-->
         <scene sceneID="5GY-Oh-GLf">
             <objects>
-                <navigationController storyboardIdentifier="tripsNavigationController" automaticallyAdjustsScrollViewInsets="NO" id="naL-63-V1S" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="tripsNavigationController" automaticallyAdjustsScrollViewInsets="NO" hidesBarsOnSwipe="YES" id="naL-63-V1S" sceneMemberID="viewController">
                     <extendedEdge key="edgesForExtendedLayout" bottom="YES"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="WcS-99-Pqx">
@@ -502,6 +561,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="DestinationBG" width="750" height="1334"/>
         <image name="Fill 91" width="64" height="92"/>
         <image name="Fill 96" width="38" height="49"/>
         <image name="GrayLogo" width="186" height="185"/>
@@ -511,5 +571,6 @@
         <image name="backgroundIMG" width="750" height="1334"/>
         <image name="darkLine" width="326" height="1"/>
         <image name="photoUploadz" width="100" height="100"/>
+        <image name="searchIcon" width="21" height="20"/>
     </resources>
 </document>

@@ -18,11 +18,12 @@
 		49CB75331FC18BAA008B0DF3 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49CB75321FC18BAA008B0DF3 /* SignUpViewController.swift */; };
 		49D21D871FB6C38800518749 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D21D861FB6C38800518749 /* AppDelegate.swift */; };
 		49D21D8C1FB6C38800518749 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49D21D8A1FB6C38800518749 /* Main.storyboard */; };
-		49D21D8E1FB6C38800518749 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49D21D8D1FB6C38800518749 /* Assets.xcassets */; };
 		49D21D911FB6C38800518749 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49D21D8F1FB6C38800518749 /* LaunchScreen.storyboard */; };
 		49D21D991FB6CC0D00518749 /* TripTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D21D981FB6CC0D00518749 /* TripTableViewCell.swift */; };
 		49D21D9B1FB6CD1200518749 /* TripsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D21D9A1FB6CD1200518749 /* TripsTableViewController.swift */; };
 		49D21D9D1FB952F900518749 /* Trip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D21D9C1FB952F900518749 /* Trip.swift */; };
+		49E1B1151FE1B15000D093CD /* AddTripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49E1B1141FE1B15000D093CD /* AddTripViewController.swift */; };
+		49E1B1161FE1CE7100D093CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49D21D8D1FB6C38800518749 /* Assets.xcassets */; };
 		49E2E7BC1FE0625F008969DC /* TripsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49E2E7BB1FE0625F008969DC /* TripsViewController.swift */; };
 		49E2E7C41FE07E95008969DC /* UIViewShadowExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49E2E7C31FE07E95008969DC /* UIViewShadowExtension.swift */; };
 		FD400A76945623A8F01DAF75 /* Pods_tripPlanner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E60D3C4F03857986C01FE79B /* Pods_tripPlanner.framework */; };
@@ -47,6 +48,7 @@
 		49D21D981FB6CC0D00518749 /* TripTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripTableViewCell.swift; sourceTree = "<group>"; };
 		49D21D9A1FB6CD1200518749 /* TripsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripsTableViewController.swift; sourceTree = "<group>"; };
 		49D21D9C1FB952F900518749 /* Trip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trip.swift; sourceTree = "<group>"; };
+		49E1B1141FE1B15000D093CD /* AddTripViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AddTripViewController.swift; path = "tripPlanner/View Controllers/AddTripViewController.swift"; sourceTree = SOURCE_ROOT; };
 		49E2E7BB1FE0625F008969DC /* TripsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TripsViewController.swift; path = "tripPlanner/View Controllers/TripsViewController.swift"; sourceTree = SOURCE_ROOT; };
 		49E2E7C31FE07E95008969DC /* UIViewShadowExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewShadowExtension.swift; sourceTree = "<group>"; };
 		5071D91B0AF115F318AAF7CE /* Pods-tripPlanner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tripPlanner.release.xcconfig"; path = "Pods/Target Support Files/Pods-tripPlanner/Pods-tripPlanner.release.xcconfig"; sourceTree = "<group>"; };
@@ -93,6 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				49D21D8A1FB6C38800518749 /* Main.storyboard */,
+				49E1B1141FE1B15000D093CD /* AddTripViewController.swift */,
 				49E2E7BB1FE0625F008969DC /* TripsViewController.swift */,
 				49D21D8F1FB6C38800518749 /* LaunchScreen.storyboard */,
 			);
@@ -222,7 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				49D21D911FB6C38800518749 /* LaunchScreen.storyboard in Resources */,
-				49D21D8E1FB6C38800518749 /* Assets.xcassets in Resources */,
+				49E1B1161FE1CE7100D093CD /* Assets.xcassets in Resources */,
 				49D21D8C1FB6C38800518749 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -307,6 +310,7 @@
 				49D21D991FB6CC0D00518749 /* TripTableViewCell.swift in Sources */,
 				494517301FD620B50052724E /* User.swift in Sources */,
 				499DBB731FBBA33400F79025 /* Networking.swift in Sources */,
+				49E1B1151FE1B15000D093CD /* AddTripViewController.swift in Sources */,
 				49D21D9B1FB6CD1200518749 /* TripsTableViewController.swift in Sources */,
 				49D21D871FB6C38800518749 /* AppDelegate.swift in Sources */,
 			);
