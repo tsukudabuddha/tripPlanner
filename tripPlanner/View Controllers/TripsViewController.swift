@@ -104,7 +104,9 @@ class TripsViewController: UIViewController, UITableViewDataSource {
         if let username = keychain.get("username"), let password = keychain.get("password") {
             let network = Networking()
             network.getTrips(resource: .trips, username: username, password: password) { (trips) in
-                self.trips = trips
+                if self.trips != trips {
+                    self.trips = trips
+                }
                 DispatchQueue.main.async {
                     self.navigationController?.navigationBar.isHidden = false
                     sender.endRefreshing()
@@ -120,7 +122,9 @@ class TripsViewController: UIViewController, UITableViewDataSource {
         if let username = keychain.get("username"), let password = keychain.get("password") {
             let network = Networking()
             network.getTrips(resource: .trips, username: username, password: password) { (trips) in
-                self.trips = trips
+                if self.trips != trips {
+                    self.trips = trips
+                }
             }
         }
     }

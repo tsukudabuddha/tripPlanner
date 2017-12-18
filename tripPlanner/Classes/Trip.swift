@@ -8,7 +8,16 @@
 
 import Foundation
 
-struct Trip {
+struct Trip: Equatable {
+    
+    static func ==(lhs: Trip, rhs: Trip) -> Bool {
+        if lhs._id == rhs._id && lhs.landmarks == rhs.landmarks && lhs.destinationCity == rhs.destinationCity && lhs.destinationCountry == rhs.destinationCountry && lhs.travelers == rhs.travelers && lhs.pictureId == rhs.pictureId {
+            return true
+        } else {
+            return false
+        }
+    }
+    
     let _id: String
     let destinationCity: String
     let destinationCountry: String
@@ -42,6 +51,7 @@ struct Trip {
         try container.encodeIfPresent(self.pictureId, forKey: .pictureId)
         try container.encodeIfPresent(self.travelers, forKey: .travelers)
     }
+    
 }
 
 extension Trip: Codable {

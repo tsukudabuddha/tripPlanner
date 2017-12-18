@@ -8,6 +8,7 @@
 
 import UIKit
 import Kingfisher
+import GooglePlaces
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -19,6 +20,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         /* Set image cache to 1, so that images are only stored to disk */
         ImageCache.default.maxMemoryCost = 1
+        
+        GMSPlacesClient.provideAPIKey(Keys().googlePlaces)
+        
         return true
     }
 
