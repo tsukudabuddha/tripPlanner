@@ -12,5 +12,7 @@ target 'tripPlanner' do
   pod 'KeychainSwift', '~> 10.0'
   pod 'IHKeyboardAvoiding'
   pod 'Firebase/Core'
+  pod 'Firebase/Auth'
+  pod 'GoogleSignIn'
 
 end

@@ -21,6 +21,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         /* Set image cache to 1, so that images are only stored to disk */
         ImageCache.default.maxMemoryCost = 1
         
+        FirebaseApp.configure() // configure default firebase app
         return true
     }
 

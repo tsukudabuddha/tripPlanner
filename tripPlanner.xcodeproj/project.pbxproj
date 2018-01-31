@@ -104,13 +104,13 @@
 			path = Storyboards;
 			sourceTree = "<group>";
 		};
-		4957AADA1FC3D4400035886F /* Classes */ = {
+		4957AADA1FC3D4400035886F /* Models */ = {
 			isa = PBXGroup;
 			children = (
 				49D21D9C1FB952F900518749 /* Trip.swift */,
 				4945172F1FD620B50052724E /* User.swift */,
 			);
-			path = Classes;
+			path = Models;
 			sourceTree = "<group>";
 		};
 		49D21D7A1FB6C38700518749 = {
@@ -135,15 +135,15 @@
 			isa = PBXGroup;
 			children = (
 				491C84081FCF84EE00B32933 /* Support Files */,
-				49D21D861FB6C38800518749 /* AppDelegate.swift */,
 				4957AAD91FC3D41A0035886F /* Storyboards */,
 				4957AAD81FC3D3CA0035886F /* View Controllers */,
-				4957AADA1FC3D4400035886F /* Classes */,
+				4957AADA1FC3D4400035886F /* Models */,
 				49D21D8D1FB6C38800518749 /* Assets.xcassets */,
 				4957AADD1FC3D5700035886F /* ItineraryCollectionViewCell.swift */,
 				49D21D981FB6CC0D00518749 /* TripTableViewCell.swift */,
 				49D21D921FB6C38800518749 /* Info.plist */,
 				49E8E44F202161CB00000335 /* GoogleService-Info.plist */,
+				49D21D861FB6C38800518749 /* AppDelegate.swift */,
 			);
 			path = tripPlanner;
 			sourceTree = "<group>";
@@ -244,6 +244,8 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-tripPlanner/Pods-tripPlanner-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMOAuth2/GTMOAuth2.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
 				"${BUILT_PRODUCTS_DIR}/Hero/Hero.framework",
 				"${BUILT_PRODUCTS_DIR}/IHKeyboardAvoiding/IHKeyboardAvoiding.framework",
@@ -253,6 +255,8 @@
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMOAuth2.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Hero.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IHKeyboardAvoiding.framework",
@@ -272,7 +276,7 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-tripPlanner/Pods-tripPlanner-resources.sh",
-				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
