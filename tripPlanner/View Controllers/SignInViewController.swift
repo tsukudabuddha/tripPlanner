@@ -9,17 +9,28 @@
 import UIKit
 import KeychainSwift
 import IHKeyboardAvoiding
+import Firebase
+import GoogleSignIn
 
-class SignInViewController: UIViewController {
+class SignInViewController: UIViewController, GIDSignInUIDelegate {
     @IBOutlet weak var usernameTextField: UITextField!
     @IBOutlet weak var passwordTextField: UITextField!
+    
+    @IBOutlet weak var googleSignInButton: GIDSignInButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
         
-        // Make Navigation Bar Clear
+        /* Google ID Sign in */
+        GIDSignIn.sharedInstance().uiDelegate = self
+        GIDSignIn.sharedInstance().signIn()
+        
+        // TODO(developer) Configure the sign-in button look/feel
+        googleSignInButton.colorScheme = .light
+        
+        /* Make Navigation Bar Clear */
         self.navigationController?.navigationBar.setBackgroundImage(UIImage(), for: UIBarMetrics.default)
         self.navigationController?.navigationBar.shadowImage = UIImage()
         self.navigationController?.navigationBar.isTranslucent = true
@@ -32,7 +43,7 @@ class SignInViewController: UIViewController {
         keychain.synchronizable = true
         
         /* Uncomment to reset keychain/ test the login and signup screens */
-//        keychain.clear()
+        keychain.clear()
         
         /* Check if the userrs credentials are store in keychain */
         if keychain.get("username") != nil && keychain.get("password") != nil {
